@@ -33,7 +33,7 @@ sudo pacman -R --noconfirm simplescreenrecorder
 #sudo pacman -R --noconfirm variety
 sudo pacman -R --noconfirm vlc
 sudo pacman -R --noconfirm termite
-#sudo pacman -R --noconfirm baobab
+sudo pacman -R --noconfirm synapse
 sudo pacman -R --noconfirm gpick
 sudo pacman -R --noconfirm plank
 sudo pacman -R --noconfirm powertop
