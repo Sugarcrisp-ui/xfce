@@ -47,6 +47,7 @@ sudo pacman -S --noconfirm --needed arcolinuxtweak-tool-git
 sudo pacman -S --noconfirm --needed xfce4-whiskermenu-plugin
 sudo pacman -S --noconfirm --needed pamac
 sudo pacman -S --noconfirm --needed conky-lua-archers
+sudo pacman -S --noconfirm --needed calibre-common
 
 #sudo pacman -S --noconfirm --needed
 #sudo pacman -S --noconfirm --needed arcolinux-meta-fun
