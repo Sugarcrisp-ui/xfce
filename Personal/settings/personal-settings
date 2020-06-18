@@ -93,3 +93,6 @@ Windows Manager
 	- tile window to the right = super+right
 	- hide window (minimize) = super+m
 	
+AUR
+	-enable aur in pamac (add and remove programs)
+	
