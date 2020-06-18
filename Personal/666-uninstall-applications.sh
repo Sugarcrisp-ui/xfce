@@ -25,7 +25,7 @@
 
 sudo pacman -R --noconfirm evolution
 sudo pacman -R --noconfirm orage
-#sudo pacman -R --noconfirm gimp
+sudo pacman -R --noconfirm malcontent
 sudo pacman -R --noconfirm guvcview
 sudo pacman -R --noconfirm inkscape
 sudo pacman -R --noconfirm pragha
