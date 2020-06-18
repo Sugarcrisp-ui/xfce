@@ -49,6 +49,9 @@ sudo pacman -S --noconfirm --needed pamac
 sudo pacman -S --noconfirm --needed conky-lua-archers
 sudo pacman -S --noconfirm --needed calibre-common
 sudo pacman -S --noconfirm --needed caprine
+sudo pacman -S --noconfirm --needed cawbird
+sudo pacman -S --noconfirm --needed discord
+
 #sudo pacman -S --noconfirm --needed
 #sudo pacman -S --noconfirm --needed arcolinux-meta-fun
 
