@@ -1,0 +1,86 @@
+Appearance
+	Style - Arc-Dark
+	Icons - Sardi Arc
+	Fonts - Sans Regular- 11
+		  - Monospace - 11
+		  - Enable anti-aliasing
+		  - Hinting - slight
+		  - Custom DPI settings - 96
+	Settings - Toolbar style - icons
+			 - Show images on buttons
+			 - Show images in menus
+			 - Window scaling - no scaling
+			 
+
+Whisker Menu
+	- right click the menu
+	- select panel
+	- panel preferences
+	- select the Items tab
+	- add new item to panel
+		-Whisker Menu
+	- arrange the items to match the list
+		- Whisker Menu
+		- Windows Buttons
+		- Separator
+		- Workspace Switcher
+		- Notifications Area
+		- PulseAudio Plugin
+		- Clock
+		- Action Buttons
+		
+		
+	- right click the menu
+		- Properties
+			- Appearance
+				- Show as list
+				- show category names
+				- show application tooltips
+				- show application descriptions
+				- position categories next to panel button
+				- position search entry next to panel button
+				- position commands next to search entry
+				- application icon size - small
+				- category icon size - small
+				- background opacity - 80
+				
+			- Panel Button
+				- display - icon and title
+				- title - ArcoLinux
+				- icon - click on logo
+					- location icons
+						- Start-Here-Arcolinux
+						
+						
+Start application "Variety"
+	- disable change wallpaper every x minutes
+	- close the window
+	- click on the taskbar icon and select Wallpaper selector
+	- choose wallpaper
+	- unselect the Wallpaper selector
+	
+	
+Desktop settings
+	- right click on the desktop 
+	- select desktop settings
+	- open the "icons" menu
+	- turn off the Default Icons
+	
+Prefered Apps
+	- select browser
+	- select terminal
+	- select file manager
+	
+Keyboard Shortcuts
+	- am-conky-session = super+c
+	- arcolinux-logout = super+q
+	- calculator = super+k
+	- catfish = Lctrl+space
+	- exo-open --launch FileManager = super+f
+	- exo-open --launch TerminalEmulator = super+return
+	- exo-open --launch WebBrowser = super+w
+	- geany = super+t
+	- qbittorrent = super+b
+	- xfce4-popup-whiskermenu = super+altL
+	- xkill = super+esc
+	
