@@ -86,7 +86,7 @@ Keyboard Shortcuts
 	
 Windows Manager
 	- close window = Lalt+backspace
-	- maximize window = super+Rshift
+	- toggle fullscreen = super+Rshift
 	- tile window to the top = super+up
 	- tile window to the bottom = super+dn
 	- tile window to the left = super+left
