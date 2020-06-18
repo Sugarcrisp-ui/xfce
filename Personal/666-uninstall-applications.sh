@@ -55,7 +55,7 @@ sudo pacman -R --noconfirm caja
 sudo pacman -R --noconfirm gnome-software-packagekit-plugin
 sudo pacman -R --noconfirm pulseaudio-equalizer-ladspa
 #sudo pacman -R --noconfirm autorandr
-#sudo pacman -R --noconfirm celluloid
+sudo pacman -R --noconfirm gnome-software
 #sudo pacman -R --noconfirm clipgrab
 #sudo pacman -R --noconfirm gnome-screenshot
 #sudo pacman -R --noconfirm viber
