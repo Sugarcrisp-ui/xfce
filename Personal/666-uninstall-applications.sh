@@ -32,7 +32,7 @@ sudo pacman -R --noconfirm pragha
 sudo pacman -R --noconfirm simplescreenrecorder
 #sudo pacman -R --noconfirm variety
 sudo pacman -R --noconfirm vlc
-#sudo pacman -R --noconfirm atom
+sudo pacman -R --noconfirm termite
 #sudo pacman -R --noconfirm baobab
 sudo pacman -R --noconfirm gpick
 sudo pacman -R --noconfirm plank
@@ -58,7 +58,7 @@ sudo pacman -R --noconfirm pulseaudio-equalizer-ladspa
 sudo pacman -R --noconfirm gnome-software
 #sudo pacman -R --noconfirm clipgrab
 #sudo pacman -R --noconfirm gnome-screenshot
-#sudo pacman -R --noconfirm viber
+sudo pacman -R --noconfirm totem
 #sudo pacman -R --noconfirm udisks2
 #sudo pacman -R --noconfirm arcolinux-meta-fun
 sudo pacman -R --noconfirm vivaldi-ffmpeg-codecs
