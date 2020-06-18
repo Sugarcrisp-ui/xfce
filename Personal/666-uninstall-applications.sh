@@ -24,7 +24,7 @@
 #ArcoLinuxB = you add or delete the packages you want on the iso
 
 sudo pacman -R --noconfirm evolution
-#sudo pacman -R --noconfirm firefox
+sudo pacman -R --noconfirm orage
 #sudo pacman -R --noconfirm gimp
 sudo pacman -R --noconfirm guvcview
 sudo pacman -R --noconfirm inkscape
