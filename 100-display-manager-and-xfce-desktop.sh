@@ -55,6 +55,7 @@ xfce4
 xfce4-goodies
 arcolinux-logout-git
 gnome
+arcolinux-system-config-git
 )
 
 #gnome-extra can be added too
