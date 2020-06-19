@@ -43,7 +43,7 @@ sudo pacman -S --noconfirm --needed variety
 sudo pacman -S --noconfirm --needed bitwarden
 sudo pacman -S --noconfirm --needed chromium
 sudo pacman -S --noconfirm --needed firefox
-sudo pacman -S --noconfirm --needed arcolinuxtweak-tool-git
+sudo pacman -S --noconfirm --needed arcolinux-tweak-tool-git
 sudo pacman -S --noconfirm --needed arcolinux-logout-themes-git
 sudo pacman -S --noconfirm --needed xfce4-whiskermenu-plugin
 sudo pacman -S --noconfirm --needed pamac
