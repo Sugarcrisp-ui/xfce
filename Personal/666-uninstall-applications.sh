@@ -69,7 +69,7 @@ sudo pacman -R --noconfirm gnome-boxes
 sudo pacman -R --noconfirm parole
 sudo pacman -R --noconfirm gnome-books
 sudo pacman -R --noconfirm gnome-contacts
-#sudo pacman -R --noconfirm xfce4-clipman
+sudo pacman -R --noconfirm xfce4-evince
 sudo pacman -R --noconfirm gnome-calendar
 sudo pacman -R --noconfirm nautilus
 sudo pacman -R --noconfirm gnome-maps
