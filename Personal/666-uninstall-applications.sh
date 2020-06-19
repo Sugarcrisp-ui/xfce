@@ -76,6 +76,7 @@ sudo pacman -R --noconfirm gnome-maps
 sudo pacman -R --noconfirm gnome-music
 sudo pacman -R --noconfirm gnome-photos
 sudo pacman -R --noconfirm epiphany
+sudo pacman -R --noconfirm nemo
 
 echo "################################################################"
 echo "####                      packages uninstalled            ######"
