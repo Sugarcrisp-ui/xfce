@@ -1,0 +1,475 @@
+INFO: 2020-06-19 17:31:21,367: main() 'Using profile folder /home/brett/.config/variety/'
+INFO: 2020-06-19 17:31:21,370: perform_upgrade() 'Last run version was 0.8.3 or earlier, current version is 0.8.3'
+INFO: 2020-06-19 17:31:21,441: process_command() 'Received command: ['--profile', '/home/brett/.config/variety/']'
+INFO: 2020-06-19 17:31:21,443: load_banned() 'Missing or invalid banned URLs list, no URLs will be banned'
+ERROR: 2020-06-19 17:31:21,466: get_desktop_wallpaper() 'Exception when calling get_wallpaper script'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 2612, in get_desktop_wallpaper
+    output = subprocess.check_output(script).decode().strip()
+  File "/usr/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/home/brett/.config/variety/scripts/get_wallpaper' returned non-zero exit status 1.
+INFO: 2020-06-19 17:31:21,469: start() 'Using data_path /usr/share/variety'
+INFO: 2020-06-19 17:31:21,469: load() 'Jumble loading'
+INFO: 2020-06-19 17:31:21,470: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.8/site-packages/variety/plugins/builtin/__init__.py'
+INFO: 2020-06-19 17:31:21,470: _walk_modules() 'Jumble loading module in QuotationsPageSource from /usr/lib/python3.8/site-packages/variety/plugins/builtin/quotes/QuotationsPageSource.py'
+INFO: 2020-06-19 17:31:21,474: load() 'Jumble found plugin class: <class 'QuotationsPageSource.QuotationsPageSource'>: {'name': 'TheQuotationsPage.com', 'description': 'Fetches quotes from TheQuotationsPage.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-06-19 17:31:21,475: _walk_modules() 'Jumble loading module in GoodreadsSource from /usr/lib/python3.8/site-packages/variety/plugins/builtin/quotes/GoodreadsSource.py'
+INFO: 2020-06-19 17:31:21,476: load() 'Jumble found plugin class: <class 'GoodreadsSource.GoodreadsSource'>: {'name': 'Goodreads', 'description': 'Fetches quotes from Goodreads.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-06-19 17:31:21,477: _walk_modules() 'Jumble loading module in LocalFilesSource from /usr/lib/python3.8/site-packages/variety/plugins/builtin/quotes/LocalFilesSource.py'
+INFO: 2020-06-19 17:31:21,478: load() 'Jumble found plugin class: <class 'LocalFilesSource.LocalFilesSource'>: {'name': 'Local text files', 'description': 'Displays quotes, defined in local text files.\nPut your own txt files in: /home/brett/.config/variety/pluginconfig/quotes/.\nThe file format is:\n\nquote -- author\n.\nsecond quote -- another author\n.\netc...\n\nExample: http://rvelthuis.de/zips/quotes.txt', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-06-19 17:31:21,479: _walk_modules() 'Jumble loading module in FortuneSource from /usr/lib/python3.8/site-packages/variety/plugins/builtin/quotes/FortuneSource.py'
+INFO: 2020-06-19 17:31:21,479: load() 'Jumble found plugin class: <class 'FortuneSource.FortuneSource'>: {'name': 'UNIX fortune program', 'description': 'Displays quotes using the UNIX fortune program. You may want to install additional fortune packs, e.g. fortunes-bofh-excuses.', 'author': 'Dan Jones', 'version': '0.1'}'
+INFO: 2020-06-19 17:31:21,480: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.8/site-packages/variety/plugins/builtin/quotes/__init__.py'
+INFO: 2020-06-19 17:31:21,480: _walk_modules() 'Jumble loading module in UrbanDictionarySource from /usr/lib/python3.8/site-packages/variety/plugins/builtin/quotes/UrbanDictionarySource.py'
+INFO: 2020-06-19 17:31:21,480: load() 'Jumble found plugin class: <class 'UrbanDictionarySource.UrbanDictionarySource'>: {'name': 'Urban Dictionary', 'description': 'Displays definitions from Urban Dictionary', 'author': 'James Miller', 'version': '0.1'}'
+INFO: 2020-06-19 17:31:21,480: _walk_modules() 'Jumble loading module in RedditSource from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/RedditSource.py'
+INFO: 2020-06-19 17:31:21,482: load() 'Jumble found plugin class: <class 'RedditSource.RedditSource'>: {'name': 'RedditSource', 'description': 'Configurable source for fetching images from Reddit', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-06-19 17:31:21,482: _walk_modules() 'Jumble loading module in MediaRSSDownloader from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/MediaRSSDownloader.py'
+INFO: 2020-06-19 17:31:21,482: _walk_modules() 'Jumble loading module in EarthviewDownloader from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/EarthviewDownloader.py'
+INFO: 2020-06-19 17:31:21,483: load() 'Jumble found plugin class: <class 'EarthviewDownloader.EarthviewDownloader'>: {'name': 'EarthviewDownloader', 'description': 'Google Earth View Wallpapers', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-06-19 17:31:21,483: _walk_modules() 'Jumble loading module in WallhavenSource from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/WallhavenSource.py'
+INFO: 2020-06-19 17:31:21,485: load() 'Jumble found plugin class: <class 'WallhavenSource.WallhavenSource'>: {'name': 'MediaRSSSource', 'description': 'Configurable source for fetching images from Wallhaven.cc', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-06-19 17:31:21,485: _walk_modules() 'Jumble loading module in UnsplashDownloader from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/UnsplashDownloader.py'
+INFO: 2020-06-19 17:31:21,485: load() 'Jumble found plugin class: <class 'UnsplashDownloader.UnsplashDownloader'>: {'name': 'UnsplashDownloader', 'description': 'High-resolution photos from Unsplash.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-06-19 17:31:21,486: _walk_modules() 'Jumble loading module in RedditDownloader from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/RedditDownloader.py'
+INFO: 2020-06-19 17:31:21,486: _walk_modules() 'Jumble loading module in BingDownloader from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/BingDownloader.py'
+INFO: 2020-06-19 17:31:21,487: load() 'Jumble found plugin class: <class 'BingDownloader.BingDownloader'>: {'name': 'BingDownloader', 'description': 'Bing Photo of the Day', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-06-19 17:31:21,487: _walk_modules() 'Jumble loading module in UnsplashConfigurableSource from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/UnsplashConfigurableSource.py'
+INFO: 2020-06-19 17:31:21,488: load() 'Jumble found plugin class: <class 'UnsplashConfigurableSource.UnsplashConfigurableSource'>: {'name': 'UnsplashConfigurableSource', 'description': 'Configurable source for fetching photos from Unsplash.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-06-19 17:31:21,488: _walk_modules() 'Jumble loading module in DesktopprDownloader from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/DesktopprDownloader.py'
+INFO: 2020-06-19 17:31:21,489: load() 'Jumble found plugin class: <class 'DesktopprDownloader.DesktopprDownloader'>: {'name': 'DesktopprDownloader', 'description': 'Random wallpapers from Desktoppr.co', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-06-19 17:31:21,489: _walk_modules() 'Jumble loading module in APODDownloader from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/APODDownloader.py'
+INFO: 2020-06-19 17:31:21,489: load() 'Jumble found plugin class: <class 'APODDownloader.APODDownloader'>: {'name': 'APODDownloader', 'description': 'NASA Astro Pic of the Day', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-06-19 17:31:21,489: _walk_modules() 'Jumble loading module in ChromeOSWallpapersDownloader from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/ChromeOSWallpapersDownloader.py'
+INFO: 2020-06-19 17:31:21,490: load() 'Jumble found plugin class: <class 'ChromeOSWallpapersDownloader.ChromeOSWallpapersDownloader'>: {'name': 'ChromeOsWallpapersDownloader', 'description': 'Chrome OS Wallpapers', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-06-19 17:31:21,490: _walk_modules() 'Jumble loading module in WallhavenDownloader from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/WallhavenDownloader.py'
+INFO: 2020-06-19 17:31:21,491: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/__init__.py'
+INFO: 2020-06-19 17:31:21,491: _walk_modules() 'Jumble loading module in MediaRSSSource from /usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/MediaRSSSource.py'
+INFO: 2020-06-19 17:31:21,492: load() 'Jumble found plugin class: <class 'MediaRSSSource.MediaRSSSource'>: {'name': 'MediaRSSSource', 'description': 'Configurable source for fetching images from MediaRSS feeds', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2020-06-19 17:31:21,495: reload_config() 'Creating new downloader for type flickr, location user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'
+INFO: 2020-06-19 17:31:21,495: reload_config() 'Creating new downloader for type apod, location NASA's Astronomy Picture of the Day'
+INFO: 2020-06-19 17:31:21,495: reload_config() 'Creating new downloader for type bing, location Bing Photo of the Day'
+INFO: 2020-06-19 17:31:21,495: reload_config() 'Creating new downloader for type chromeos, location Chrome OS Wallpapers'
+INFO: 2020-06-19 17:31:21,495: reload_config() 'Creating new downloader for type desktoppr, location Random wallpapers from Desktoppr.co'
+INFO: 2020-06-19 17:31:21,495: reload_config() 'Creating new downloader for type earthview, location Google Earth View Wallpapers'
+INFO: 2020-06-19 17:31:21,496: reload_config() 'Creating new downloader for type unsplash, location High-resolution photos from Unsplash.com'
+INFO: 2020-06-19 17:31:21,496: log_options() 'Loaded options:'
+INFO: 2020-06-19 17:31:21,497: log_options() 'change_enabled = False'
+INFO: 2020-06-19 17:31:21,497: log_options() 'change_interval = 300'
+INFO: 2020-06-19 17:31:21,497: log_options() 'change_on_start = False'
+INFO: 2020-06-19 17:31:21,497: log_options() 'clipboard_enabled = False'
+INFO: 2020-06-19 17:31:21,497: log_options() 'clipboard_hosts = ['wallhaven.cc', 'wallpapers.net', 'flickr.com', 'imgur.com', 'deviantart.com', 'interfacelift.com', 'vladstudio.com', 'imageshack.us', 'deviantart.net', 'imageshack.com']'
+INFO: 2020-06-19 17:31:21,497: log_options() 'clipboard_use_whitelist = True'
+INFO: 2020-06-19 17:31:21,497: log_options() 'clock_date_font = Ubuntu Condensed, 30'
+INFO: 2020-06-19 17:31:21,497: log_options() 'clock_enabled = False'
+INFO: 2020-06-19 17:31:21,497: log_options() 'clock_filter = -density 100 -font `fc-match -f '%{file[0]}' '%CLOCK_FONT_NAME'` -pointsize %CLOCK_FONT_SIZE -gravity SouthEast -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+108] '%H:%M' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+110] '%H:%M' -font `fc-match -f '%{file[0]}' '%DATE_FONT_NAME'` -pointsize %DATE_FONT_SIZE -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+58] '%A, %B %d' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+60] '%A, %B %d''
+INFO: 2020-06-19 17:31:21,497: log_options() 'clock_font = Ubuntu Condensed, 70'
+INFO: 2020-06-19 17:31:21,497: log_options() 'configfile = /home/brett/.config/variety/variety.conf'
+INFO: 2020-06-19 17:31:21,497: log_options() 'copyto_enabled = False'
+INFO: 2020-06-19 17:31:21,497: log_options() 'copyto_folder = Default'
+INFO: 2020-06-19 17:31:21,497: log_options() 'desired_color = [160, 160, 160]'
+INFO: 2020-06-19 17:31:21,497: log_options() 'desired_color_enabled = False'
+INFO: 2020-06-19 17:31:21,497: log_options() 'download_folder = /home/brett/.config/variety/Downloaded'
+INFO: 2020-06-19 17:31:21,497: log_options() 'download_preference_ratio = 0.9'
+INFO: 2020-06-19 17:31:21,497: log_options() 'favorites_folder = /home/brett/.config/variety/Favorites'
+INFO: 2020-06-19 17:31:21,497: log_options() 'favorites_operations = [['Downloaded', 'Copy'], ['Fetched', 'Move'], ['Others', 'Copy']]'
+INFO: 2020-06-19 17:31:21,497: log_options() 'fetched_folder = /home/brett/.config/variety/Fetched'
+INFO: 2020-06-19 17:31:21,497: log_options() 'filters = [[False, 'Keep original', ''], [False, 'Grayscale', '-type Grayscale'], [False, 'Heavy blur', '-blur 120x40'], [False, 'Soft blur', '-blur 20x7'], [False, 'Oil painting', '-paint 8'], [False, 'Pointilism', '-spread 10 -noise 3'], [False, 'Pixellate', '-scale 3% -scale 3333%']]'
+INFO: 2020-06-19 17:31:21,497: log_options() 'icon = Light'
+INFO: 2020-06-19 17:31:21,497: log_options() 'lightness_enabled = False'
+INFO: 2020-06-19 17:31:21,497: log_options() 'lightness_mode = 0'
+INFO: 2020-06-19 17:31:21,497: log_options() 'min_rating = 4'
+INFO: 2020-06-19 17:31:21,497: log_options() 'min_rating_enabled = False'
+INFO: 2020-06-19 17:31:21,497: log_options() 'min_size = 80'
+INFO: 2020-06-19 17:31:21,497: log_options() 'min_size_enabled = False'
+INFO: 2020-06-19 17:31:21,497: log_options() 'quota_enabled = True'
+INFO: 2020-06-19 17:31:21,497: log_options() 'quota_size = 1000'
+INFO: 2020-06-19 17:31:21,497: log_options() 'quotes_authors = '
+INFO: 2020-06-19 17:31:21,497: log_options() 'quotes_bg_color = [80, 80, 80]'
+INFO: 2020-06-19 17:31:21,497: log_options() 'quotes_bg_opacity = 55'
+INFO: 2020-06-19 17:31:21,497: log_options() 'quotes_change_enabled = False'
+INFO: 2020-06-19 17:31:21,497: log_options() 'quotes_change_interval = 300'
+INFO: 2020-06-19 17:31:21,497: log_options() 'quotes_disabled_sources = ['Urban Dictionary']'
+INFO: 2020-06-19 17:31:21,497: log_options() 'quotes_enabled = False'
+INFO: 2020-06-19 17:31:21,497: log_options() 'quotes_favorites_file = /home/brett/.config/variety/favorite_quotes.txt'
+INFO: 2020-06-19 17:31:21,497: log_options() 'quotes_font = Bitstream Charter 30'
+INFO: 2020-06-19 17:31:21,497: log_options() 'quotes_hpos = 100'
+INFO: 2020-06-19 17:31:21,498: log_options() 'quotes_max_length = 250'
+INFO: 2020-06-19 17:31:21,498: log_options() 'quotes_tags = '
+INFO: 2020-06-19 17:31:21,498: log_options() 'quotes_text_color = [255, 255, 255]'
+INFO: 2020-06-19 17:31:21,498: log_options() 'quotes_text_shadow = False'
+INFO: 2020-06-19 17:31:21,498: log_options() 'quotes_vpos = 40'
+INFO: 2020-06-19 17:31:21,498: log_options() 'quotes_width = 70'
+INFO: 2020-06-19 17:31:21,498: log_options() 'safe_mode = False'
+INFO: 2020-06-19 17:31:21,498: log_options() 'slideshow_custom_enabled = False'
+INFO: 2020-06-19 17:31:21,498: log_options() 'slideshow_custom_folder = /home/brett/Pictures'
+INFO: 2020-06-19 17:31:21,498: log_options() 'slideshow_downloads_enabled = False'
+INFO: 2020-06-19 17:31:21,498: log_options() 'slideshow_fade = 0.4'
+INFO: 2020-06-19 17:31:21,498: log_options() 'slideshow_favorites_enabled = True'
+INFO: 2020-06-19 17:31:21,498: log_options() 'slideshow_mode = Fullscreen'
+INFO: 2020-06-19 17:31:21,498: log_options() 'slideshow_monitor = All'
+INFO: 2020-06-19 17:31:21,498: log_options() 'slideshow_pan = 0.05'
+INFO: 2020-06-19 17:31:21,498: log_options() 'slideshow_seconds = 6.0'
+INFO: 2020-06-19 17:31:21,498: log_options() 'slideshow_sort_order = Random'
+INFO: 2020-06-19 17:31:21,498: log_options() 'slideshow_sources_enabled = True'
+INFO: 2020-06-19 17:31:21,498: log_options() 'slideshow_zoom = 0.2'
+INFO: 2020-06-19 17:31:21,498: log_options() 'smart_enabled = False'
+INFO: 2020-06-19 17:31:21,498: log_options() 'smart_notice_shown = False'
+INFO: 2020-06-19 17:31:21,498: log_options() 'smart_register_shown = False'
+INFO: 2020-06-19 17:31:21,498: log_options() 'sources = [[True, 'favorites', 'The Favorites folder'], [True, 'fetched', 'The Fetched folder'], [True, 'folder', '/usr/share/backgrounds'], [True, 'flickr', 'user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'], [True, 'apod', "NASA's Astronomy Picture of the Day"], [True, 'bing', 'Bing Photo of the Day'], [True, 'chromeos', 'Chrome OS Wallpapers'], [True, 'desktoppr', 'Random wallpapers from Desktoppr.co'], [True, 'earthview', 'Google Earth View Wallpapers'], [True, 'unsplash', 'High-resolution photos from Unsplash.com']]'
+INFO: 2020-06-19 17:31:21,498: log_options() 'stats_enabled = True'
+INFO: 2020-06-19 17:31:21,498: log_options() 'stats_notice_shown = False'
+INFO: 2020-06-19 17:31:21,498: log_options() 'sync_enabled = True'
+INFO: 2020-06-19 17:31:21,498: log_options() 'use_landscape_enabled = True'
+INFO: 2020-06-19 17:31:21,498: reload_config() 'No need to clear prepared queue'
+INFO: 2020-06-19 17:31:21,498: update_indicator() 'Setting file info to: /usr/share/backgrounds/arcolinux/nano-schematic-infraorange-3840x2400.jpg'
+INFO: 2020-06-19 17:31:21,505: load_last_change_time() 'Change interval < 6 hours, ignore persisted last_change_time, wait initially the whole interval: 300'
+INFO: 2020-06-19 17:31:21,505: update_indicator() 'Setting file info to: /usr/share/backgrounds/arcolinux/nano-schematic-infraorange-3840x2400.jpg'
+INFO: 2020-06-19 17:31:21,506: regular_change_thread() 'regular_change thread running'
+INFO: 2020-06-19 17:31:21,506: regular_change_thread() 'regular_change: waiting till user resumes'
+INFO: 2020-06-19 17:31:21,506: prepare_thread() 'Prepare thread running'
+INFO: 2020-06-19 17:31:21,506: prepare_thread() 'Prepared buffer contains 0 images'
+INFO: 2020-06-19 17:31:21,506: prepare_thread() 'Preparing some images'
+INFO: 2020-06-19 17:31:21,510: get_throttling() 'Chrome OS Wallpapers: parsing serverside options'
+INFO: 2020-06-19 17:31:21,510: get_throttling() 'Could not parse Chrome OS Wallpapers serverside options, using defaults None, None'
+INFO: 2020-06-19 17:31:21,510: get_throttling() 'Chrome OS Wallpapers: parsing serverside options'
+INFO: 2020-06-19 17:31:21,510: get_throttling() 'Could not parse Chrome OS Wallpapers serverside options, using defaults None, None'
+INFO: 2020-06-19 17:31:21,511: download_one() 'Chrome OS Wallpapers: Downloading an image, config: None'
+INFO: 2020-06-19 17:31:21,511: download_one() 'Chrome OS Wallpapers: Queue size: 0'
+INFO: 2020-06-19 17:31:21,511: get_throttling() 'Chrome OS Wallpapers: parsing serverside options'
+INFO: 2020-06-19 17:31:21,511: get_throttling() 'Could not parse Chrome OS Wallpapers serverside options, using defaults None, None'
+INFO: 2020-06-19 17:31:21,511: download_one() 'Chrome OS Wallpapers: Filling queue'
+INFO: 2020-06-19 17:31:21,513: update_indicator_icon() 'Creating indicator'
+WARNING: 2020-06-19 17:31:21,522: create_menu() 'Variety Slideshow is not installed. This is an optional extension adding pan-and-zoom slideshows to Variety: see https://github.com/peterlevi/variety-slideshow for details'
+INFO: 2020-06-19 17:31:21,528: create_indicator() 'indicator backend: fallback tray'
+ERROR: 2020-06-19 17:31:21,575: image_ok() 'Error in image_ok for file /usr/share/backgrounds/xfce/Aquarius.svg'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1757, in image_ok
+    i = PILImage.open(img)
+  File "/usr/lib/python3.8/site-packages/PIL/Image.py", line 2818, in open
+    raise IOError("cannot identify image file %r" % (filename if filename else fp))
+OSError: cannot identify image file '/usr/share/backgrounds/xfce/Aquarius.svg'
+INFO: 2020-06-19 17:31:21,592: set_from_theme_icon() 'Showing status icon variety-indicator from GTK theme'
+INFO: 2020-06-19 17:31:21,597: prepare_thread() 'After search prepared buffer contains 95 images'
+INFO: 2020-06-19 17:31:21,606: do_set_wp() 'Calling do_set_wp with /usr/share/backgrounds/arcolinux/nano-schematic-infraorange-3840x2400.jpg, time: 1592562681.6064742'
+ERROR: 2020-06-19 17:31:21,624: get_desktop_wallpaper() 'Exception when calling get_wallpaper script'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 2612, in get_desktop_wallpaper
+    output = subprocess.check_output(script).decode().strip()
+  File "/usr/lib/python3.8/subprocess.py", line 411, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/lib/python3.8/subprocess.py", line 512, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '/home/brett/.config/variety/scripts/get_wallpaper' returned non-zero exit status 1.
+INFO: 2020-06-19 17:31:21,625: update_indicator() 'Setting file info to: /usr/share/backgrounds/arcolinux/nano-schematic-infraorange-3840x2400.jpg'
+INFO: 2020-06-19 17:31:21,626: list_files() 'More than 1 files in the folders, stop listing'
+ERROR: 2020-06-19 17:31:22,194: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/ChromeOSWallpapersDownloader.py", line 54, in fill_queue
+    manifest = Util.fetch_json(MANIFEST_URL)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 622, in request
+    r.raise_for_status()
+  File "/usr/lib/python3.8/site-packages/requests/models.py", line 941, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://storage.googleapis.com/chromeos-wallpaper-public/manifest_en.json
+INFO: 2020-06-19 17:31:22,791: reload() 'Reloading preferences dialog'
+INFO: 2020-06-19 17:31:23,197: get_throttling() 'Desktoppr.co: parsing serverside options'
+INFO: 2020-06-19 17:31:23,198: get_throttling() 'Could not parse Desktoppr.co serverside options, using defaults None, None'
+INFO: 2020-06-19 17:31:23,198: get_throttling() 'Desktoppr.co: parsing serverside options'
+INFO: 2020-06-19 17:31:23,198: get_throttling() 'Could not parse Desktoppr.co serverside options, using defaults None, None'
+INFO: 2020-06-19 17:31:23,198: download_one() 'Desktoppr.co: Downloading an image, config: None'
+INFO: 2020-06-19 17:31:23,198: download_one() 'Desktoppr.co: Queue size: 0'
+INFO: 2020-06-19 17:31:23,198: get_throttling() 'Desktoppr.co: parsing serverside options'
+INFO: 2020-06-19 17:31:23,198: get_throttling() 'Could not parse Desktoppr.co serverside options, using defaults None, None'
+INFO: 2020-06-19 17:31:23,198: download_one() 'Desktoppr.co: Filling queue'
+INFO: 2020-06-19 17:31:23,603: trigger_download() 'Triggering download thread to check if download needed'
+ERROR: 2020-06-19 17:31:24,352: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/DesktopprDownloader.py", line 57, in fill_queue
+    response = Util.fetch_json("https://api.desktoppr.co/1/wallpapers/random", verify=False)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 622, in request
+    r.raise_for_status()
+  File "/usr/lib/python3.8/site-packages/requests/models.py", line 941, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://api.desktoppr.co/1/wallpapers/random
+INFO: 2020-06-19 17:31:25,359: get_throttling() 'Bing: parsing serverside options'
+INFO: 2020-06-19 17:31:25,360: get_throttling() 'Could not parse Bing serverside options, using defaults None, None'
+INFO: 2020-06-19 17:31:25,360: get_throttling() 'Bing: parsing serverside options'
+INFO: 2020-06-19 17:31:25,360: get_throttling() 'Could not parse Bing serverside options, using defaults None, None'
+INFO: 2020-06-19 17:31:25,360: download_one() 'Bing: Downloading an image, config: None'
+INFO: 2020-06-19 17:31:25,360: download_one() 'Bing: Queue size: 0'
+INFO: 2020-06-19 17:31:25,360: get_throttling() 'Bing: parsing serverside options'
+INFO: 2020-06-19 17:31:25,361: get_throttling() 'Could not parse Bing serverside options, using defaults None, None'
+INFO: 2020-06-19 17:31:25,361: download_one() 'Bing: Filling queue'
+INFO: 2020-06-19 17:31:25,762: download_one() 'Bing: Queue populated with 7 URLs'
+INFO: 2020-06-19 17:31:25,763: save_locally() 'Origin URL: https://www.bing.com/search?q=beaver+falls+havasu+creek&form=hpcapt&filters=HpDate%3a%2220200617_0700%22'
+INFO: 2020-06-19 17:31:25,763: save_locally() 'Image URL: https://www.bing.com/th?id=OHR.Havasupai_EN-US2235201551_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp'
+INFO: 2020-06-19 17:31:25,763: save_locally() 'Local path: /home/brett/.config/variety/Downloaded/Bing/OHR.Havasupai_EN-US2235201551_1920x1080.jpg'
+INFO: 2020-06-19 17:31:25,763: save_locally() 'File already exists, skip downloading'
+INFO: 2020-06-19 17:31:41,525: server_options_thread() 'Fetching server options from http://tiny.cc/variety-options-063'
+INFO: 2020-06-19 17:31:43,732: server_options_thread() 'Fetched server options: {'flickr': {'min_fill_queue_interval': 1200, 'min_download_interval': 1200}, 'wallbase': {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}, 'wallhaven': {'min_fill_queue_interval': 1800, 'min_download_interval': 1800}, 'wallpapers.net': {'min_fill_queue_interval': 601, 'min_download_interval': 0}, 'unsplash': {'min_fill_queue_interval': 20000000000, 'min_download_interval': 20000000000}, 'unsplash_v2': {'min_fill_queue_interval': 2000, 'min_download_interval': 1200}, 'status_message': {'0.0.1': '', '*': ''}}'
+INFO: 2020-06-19 17:34:26,767: get_throttling() 'Chrome OS Wallpapers: parsing serverside options'
+INFO: 2020-06-19 17:34:26,769: get_throttling() 'Could not parse Chrome OS Wallpapers serverside options, using defaults None, None'
+INFO: 2020-06-19 17:34:26,769: get_throttling() 'Chrome OS Wallpapers: parsing serverside options'
+INFO: 2020-06-19 17:34:26,769: get_throttling() 'Could not parse Chrome OS Wallpapers serverside options, using defaults None, None'
+INFO: 2020-06-19 17:34:26,769: download_one() 'Chrome OS Wallpapers: Downloading an image, config: None'
+INFO: 2020-06-19 17:34:26,770: download_one() 'Chrome OS Wallpapers: Queue size: 0'
+INFO: 2020-06-19 17:34:26,770: get_throttling() 'Chrome OS Wallpapers: parsing serverside options'
+INFO: 2020-06-19 17:34:26,770: get_throttling() 'Could not parse Chrome OS Wallpapers serverside options, using defaults None, None'
+INFO: 2020-06-19 17:34:26,770: download_one() 'Chrome OS Wallpapers: Filling queue'
+ERROR: 2020-06-19 17:34:27,496: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/ChromeOSWallpapersDownloader.py", line 54, in fill_queue
+    manifest = Util.fetch_json(MANIFEST_URL)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 622, in request
+    r.raise_for_status()
+  File "/usr/lib/python3.8/site-packages/requests/models.py", line 941, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://storage.googleapis.com/chromeos-wallpaper-public/manifest_en.json
+INFO: 2020-06-19 17:34:28,503: get_throttling() 'Desktoppr.co: parsing serverside options'
+INFO: 2020-06-19 17:34:28,504: get_throttling() 'Could not parse Desktoppr.co serverside options, using defaults None, None'
+INFO: 2020-06-19 17:34:28,504: get_throttling() 'Desktoppr.co: parsing serverside options'
+INFO: 2020-06-19 17:34:28,504: get_throttling() 'Could not parse Desktoppr.co serverside options, using defaults None, None'
+INFO: 2020-06-19 17:34:28,504: download_one() 'Desktoppr.co: Downloading an image, config: None'
+INFO: 2020-06-19 17:34:28,504: download_one() 'Desktoppr.co: Queue size: 0'
+INFO: 2020-06-19 17:34:28,504: get_throttling() 'Desktoppr.co: parsing serverside options'
+INFO: 2020-06-19 17:34:28,504: get_throttling() 'Could not parse Desktoppr.co serverside options, using defaults None, None'
+INFO: 2020-06-19 17:34:28,504: download_one() 'Desktoppr.co: Filling queue'
+ERROR: 2020-06-19 17:34:29,582: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/DesktopprDownloader.py", line 57, in fill_queue
+    response = Util.fetch_json("https://api.desktoppr.co/1/wallpapers/random", verify=False)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 622, in request
+    r.raise_for_status()
+  File "/usr/lib/python3.8/site-packages/requests/models.py", line 941, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://api.desktoppr.co/1/wallpapers/random
+INFO: 2020-06-19 17:34:30,586: get_throttling() 'Bing: parsing serverside options'
+INFO: 2020-06-19 17:34:30,586: get_throttling() 'Could not parse Bing serverside options, using defaults None, None'
+INFO: 2020-06-19 17:34:30,587: get_throttling() 'Bing: parsing serverside options'
+INFO: 2020-06-19 17:34:30,587: get_throttling() 'Could not parse Bing serverside options, using defaults None, None'
+INFO: 2020-06-19 17:34:30,587: download_one() 'Bing: Downloading an image, config: None'
+INFO: 2020-06-19 17:34:30,587: download_one() 'Bing: Queue size: 6'
+INFO: 2020-06-19 17:34:30,587: download_one() 'Bing: Queue populated with 6 URLs'
+INFO: 2020-06-19 17:34:30,588: save_locally() 'Origin URL: https://www.bing.com/search?q=flag+day&form=hpcapt&filters=HpDate%3a%2220200614_0700%22'
+INFO: 2020-06-19 17:34:30,588: save_locally() 'Image URL: https://www.bing.com/th?id=OHR.FlagPlazaLiberty_EN-US1969942391_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp'
+INFO: 2020-06-19 17:34:30,588: save_locally() 'Local path: /home/brett/.config/variety/Downloaded/Bing/OHR.FlagPlazaLiberty_EN-US1969942391_1920x1080.jpg'
+INFO: 2020-06-19 17:34:30,588: save_locally() 'File already exists, skip downloading'
+INFO: 2020-06-19 17:37:31,591: get_throttling() 'Chrome OS Wallpapers: parsing serverside options'
+INFO: 2020-06-19 17:37:31,592: get_throttling() 'Could not parse Chrome OS Wallpapers serverside options, using defaults None, None'
+INFO: 2020-06-19 17:37:31,592: get_throttling() 'Chrome OS Wallpapers: parsing serverside options'
+INFO: 2020-06-19 17:37:31,592: get_throttling() 'Could not parse Chrome OS Wallpapers serverside options, using defaults None, None'
+INFO: 2020-06-19 17:37:31,593: download_one() 'Chrome OS Wallpapers: Downloading an image, config: None'
+INFO: 2020-06-19 17:37:31,593: download_one() 'Chrome OS Wallpapers: Queue size: 0'
+INFO: 2020-06-19 17:37:31,593: get_throttling() 'Chrome OS Wallpapers: parsing serverside options'
+INFO: 2020-06-19 17:37:31,593: get_throttling() 'Could not parse Chrome OS Wallpapers serverside options, using defaults None, None'
+INFO: 2020-06-19 17:37:31,593: download_one() 'Chrome OS Wallpapers: Filling queue'
+ERROR: 2020-06-19 17:37:32,298: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/ChromeOSWallpapersDownloader.py", line 54, in fill_queue
+    manifest = Util.fetch_json(MANIFEST_URL)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 622, in request
+    r.raise_for_status()
+  File "/usr/lib/python3.8/site-packages/requests/models.py", line 941, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://storage.googleapis.com/chromeos-wallpaper-public/manifest_en.json
+INFO: 2020-06-19 17:37:33,302: get_throttling() 'Desktoppr.co: parsing serverside options'
+INFO: 2020-06-19 17:37:33,303: get_throttling() 'Could not parse Desktoppr.co serverside options, using defaults None, None'
+INFO: 2020-06-19 17:37:33,303: get_throttling() 'Desktoppr.co: parsing serverside options'
+INFO: 2020-06-19 17:37:33,303: get_throttling() 'Could not parse Desktoppr.co serverside options, using defaults None, None'
+INFO: 2020-06-19 17:37:33,303: download_one() 'Desktoppr.co: Downloading an image, config: None'
+INFO: 2020-06-19 17:37:33,303: download_one() 'Desktoppr.co: Queue size: 0'
+INFO: 2020-06-19 17:37:33,303: get_throttling() 'Desktoppr.co: parsing serverside options'
+INFO: 2020-06-19 17:37:33,304: get_throttling() 'Could not parse Desktoppr.co serverside options, using defaults None, None'
+INFO: 2020-06-19 17:37:33,304: download_one() 'Desktoppr.co: Filling queue'
+ERROR: 2020-06-19 17:37:34,364: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/DesktopprDownloader.py", line 57, in fill_queue
+    response = Util.fetch_json("https://api.desktoppr.co/1/wallpapers/random", verify=False)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 622, in request
+    r.raise_for_status()
+  File "/usr/lib/python3.8/site-packages/requests/models.py", line 941, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://api.desktoppr.co/1/wallpapers/random
+INFO: 2020-06-19 17:37:35,378: get_throttling() 'Bing: parsing serverside options'
+INFO: 2020-06-19 17:37:35,379: get_throttling() 'Could not parse Bing serverside options, using defaults None, None'
+INFO: 2020-06-19 17:37:35,379: get_throttling() 'Bing: parsing serverside options'
+INFO: 2020-06-19 17:37:35,379: get_throttling() 'Could not parse Bing serverside options, using defaults None, None'
+INFO: 2020-06-19 17:37:35,379: download_one() 'Bing: Downloading an image, config: None'
+INFO: 2020-06-19 17:37:35,379: download_one() 'Bing: Queue size: 5'
+INFO: 2020-06-19 17:37:35,379: download_one() 'Bing: Queue populated with 5 URLs'
+INFO: 2020-06-19 17:37:35,380: save_locally() 'Origin URL: https://www.bing.com/search?q=Dourbie+Gorge&FORM=hpcapt&filters=HpDate%3a%2220200613_0700%22'
+INFO: 2020-06-19 17:37:35,380: save_locally() 'Image URL: https://www.bing.com/th?id=OHR.GrandsCausses_EN-US1892862937_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp'
+INFO: 2020-06-19 17:37:35,380: save_locally() 'Local path: /home/brett/.config/variety/Downloaded/Bing/OHR.GrandsCausses_EN-US1892862937_1920x1080.jpg'
+INFO: 2020-06-19 17:37:35,380: save_locally() 'File already exists, skip downloading'
+INFO: 2020-06-19 17:40:36,392: get_throttling() 'Chrome OS Wallpapers: parsing serverside options'
+INFO: 2020-06-19 17:40:36,393: get_throttling() 'Could not parse Chrome OS Wallpapers serverside options, using defaults None, None'
+INFO: 2020-06-19 17:40:36,393: get_throttling() 'Chrome OS Wallpapers: parsing serverside options'
+INFO: 2020-06-19 17:40:36,393: get_throttling() 'Could not parse Chrome OS Wallpapers serverside options, using defaults None, None'
+INFO: 2020-06-19 17:40:36,393: download_one() 'Chrome OS Wallpapers: Downloading an image, config: None'
+INFO: 2020-06-19 17:40:36,393: download_one() 'Chrome OS Wallpapers: Queue size: 0'
+INFO: 2020-06-19 17:40:36,393: get_throttling() 'Chrome OS Wallpapers: parsing serverside options'
+INFO: 2020-06-19 17:40:36,393: get_throttling() 'Could not parse Chrome OS Wallpapers serverside options, using defaults None, None'
+INFO: 2020-06-19 17:40:36,394: download_one() 'Chrome OS Wallpapers: Filling queue'
+ERROR: 2020-06-19 17:40:37,117: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/ChromeOSWallpapersDownloader.py", line 54, in fill_queue
+    manifest = Util.fetch_json(MANIFEST_URL)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 622, in request
+    r.raise_for_status()
+  File "/usr/lib/python3.8/site-packages/requests/models.py", line 941, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://storage.googleapis.com/chromeos-wallpaper-public/manifest_en.json
+INFO: 2020-06-19 17:40:38,121: get_throttling() 'Desktoppr.co: parsing serverside options'
+INFO: 2020-06-19 17:40:38,122: get_throttling() 'Could not parse Desktoppr.co serverside options, using defaults None, None'
+INFO: 2020-06-19 17:40:38,122: get_throttling() 'Desktoppr.co: parsing serverside options'
+INFO: 2020-06-19 17:40:38,122: get_throttling() 'Could not parse Desktoppr.co serverside options, using defaults None, None'
+INFO: 2020-06-19 17:40:38,122: download_one() 'Desktoppr.co: Downloading an image, config: None'
+INFO: 2020-06-19 17:40:38,122: download_one() 'Desktoppr.co: Queue size: 0'
+INFO: 2020-06-19 17:40:38,122: get_throttling() 'Desktoppr.co: parsing serverside options'
+INFO: 2020-06-19 17:40:38,122: get_throttling() 'Could not parse Desktoppr.co serverside options, using defaults None, None'
+INFO: 2020-06-19 17:40:38,123: download_one() 'Desktoppr.co: Filling queue'
+ERROR: 2020-06-19 17:40:39,236: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/DesktopprDownloader.py", line 57, in fill_queue
+    response = Util.fetch_json("https://api.desktoppr.co/1/wallpapers/random", verify=False)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 622, in request
+    r.raise_for_status()
+  File "/usr/lib/python3.8/site-packages/requests/models.py", line 941, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://api.desktoppr.co/1/wallpapers/random
+INFO: 2020-06-19 17:40:40,241: get_throttling() 'Bing: parsing serverside options'
+INFO: 2020-06-19 17:40:40,242: get_throttling() 'Could not parse Bing serverside options, using defaults None, None'
+INFO: 2020-06-19 17:40:40,243: get_throttling() 'Bing: parsing serverside options'
+INFO: 2020-06-19 17:40:40,243: get_throttling() 'Could not parse Bing serverside options, using defaults None, None'
+INFO: 2020-06-19 17:40:40,243: download_one() 'Bing: Downloading an image, config: None'
+INFO: 2020-06-19 17:40:40,243: download_one() 'Bing: Queue size: 4'
+INFO: 2020-06-19 17:40:40,243: download_one() 'Bing: Queue populated with 4 URLs'
+INFO: 2020-06-19 17:40:40,244: save_locally() 'Origin URL: https://www.bing.com/search?q=Big+Bend+National+Park&form=hpcapt&filters=HpDate%3a%2220200612_0700%22'
+INFO: 2020-06-19 17:40:40,244: save_locally() 'Image URL: https://www.bing.com/th?id=OHR.SantaElena_EN-US1850505356_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp'
+INFO: 2020-06-19 17:40:40,244: save_locally() 'Local path: /home/brett/.config/variety/Downloaded/Bing/OHR.SantaElena_EN-US1850505356_1920x1080.jpg'
+INFO: 2020-06-19 17:40:40,244: save_locally() 'File already exists, skip downloading'
+INFO: 2020-06-19 17:43:41,247: get_throttling() 'Chrome OS Wallpapers: parsing serverside options'
+INFO: 2020-06-19 17:43:41,248: get_throttling() 'Could not parse Chrome OS Wallpapers serverside options, using defaults None, None'
+INFO: 2020-06-19 17:43:41,248: get_throttling() 'Chrome OS Wallpapers: parsing serverside options'
+INFO: 2020-06-19 17:43:41,248: get_throttling() 'Could not parse Chrome OS Wallpapers serverside options, using defaults None, None'
+INFO: 2020-06-19 17:43:41,248: download_one() 'Chrome OS Wallpapers: Downloading an image, config: None'
+INFO: 2020-06-19 17:43:41,248: download_one() 'Chrome OS Wallpapers: Queue size: 0'
+INFO: 2020-06-19 17:43:41,248: get_throttling() 'Chrome OS Wallpapers: parsing serverside options'
+INFO: 2020-06-19 17:43:41,249: get_throttling() 'Could not parse Chrome OS Wallpapers serverside options, using defaults None, None'
+INFO: 2020-06-19 17:43:41,249: download_one() 'Chrome OS Wallpapers: Filling queue'
+ERROR: 2020-06-19 17:43:41,961: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/ChromeOSWallpapersDownloader.py", line 54, in fill_queue
+    manifest = Util.fetch_json(MANIFEST_URL)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 622, in request
+    r.raise_for_status()
+  File "/usr/lib/python3.8/site-packages/requests/models.py", line 941, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://storage.googleapis.com/chromeos-wallpaper-public/manifest_en.json
+INFO: 2020-06-19 17:43:42,965: get_throttling() 'Desktoppr.co: parsing serverside options'
+INFO: 2020-06-19 17:43:42,966: get_throttling() 'Could not parse Desktoppr.co serverside options, using defaults None, None'
+INFO: 2020-06-19 17:43:42,966: get_throttling() 'Desktoppr.co: parsing serverside options'
+INFO: 2020-06-19 17:43:42,966: get_throttling() 'Could not parse Desktoppr.co serverside options, using defaults None, None'
+INFO: 2020-06-19 17:43:42,966: download_one() 'Desktoppr.co: Downloading an image, config: None'
+INFO: 2020-06-19 17:43:42,966: download_one() 'Desktoppr.co: Queue size: 0'
+INFO: 2020-06-19 17:43:42,966: get_throttling() 'Desktoppr.co: parsing serverside options'
+INFO: 2020-06-19 17:43:42,967: get_throttling() 'Could not parse Desktoppr.co serverside options, using defaults None, None'
+INFO: 2020-06-19 17:43:42,967: download_one() 'Desktoppr.co: Filling queue'
+ERROR: 2020-06-19 17:43:44,039: download_one_from() 'Could not download wallpaper:'
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/site-packages/variety/VarietyWindow.py", line 1159, in download_one_from
+    file = downloader.download_one()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
+    items = self.fill_queue()
+  File "/usr/lib/python3.8/site-packages/variety/plugins/builtin/downloaders/DesktopprDownloader.py", line 57, in fill_queue
+    response = Util.fetch_json("https://api.desktoppr.co/1/wallpapers/random", verify=False)
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 643, in fetch_json
+    return Util.request(url, data, **request_kwargs).json()
+  File "/usr/lib/python3.8/site-packages/variety/Util.py", line 622, in request
+    r.raise_for_status()
+  File "/usr/lib/python3.8/site-packages/requests/models.py", line 941, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 502 Server Error: Bad Gateway for url: https://api.desktoppr.co/1/wallpapers/random
+INFO: 2020-06-19 17:43:45,065: get_throttling() 'Bing: parsing serverside options'
+INFO: 2020-06-19 17:43:45,065: get_throttling() 'Could not parse Bing serverside options, using defaults None, None'
+INFO: 2020-06-19 17:43:45,065: get_throttling() 'Bing: parsing serverside options'
+INFO: 2020-06-19 17:43:45,066: get_throttling() 'Could not parse Bing serverside options, using defaults None, None'
+INFO: 2020-06-19 17:43:45,066: download_one() 'Bing: Downloading an image, config: None'
+INFO: 2020-06-19 17:43:45,066: download_one() 'Bing: Queue size: 3'
+INFO: 2020-06-19 17:43:45,066: download_one() 'Bing: Queue populated with 3 URLs'
+INFO: 2020-06-19 17:43:45,066: save_locally() 'Origin URL: https://www.bing.com/search?q=st+stephen%27s+green+dublin&form=hpcapt&filters=HpDate%3a%2220200616_0700%22'
+INFO: 2020-06-19 17:43:45,067: save_locally() 'Image URL: https://www.bing.com/th?id=OHR.StStephens_EN-US3615346032_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp'
+INFO: 2020-06-19 17:43:45,067: save_locally() 'Local path: /home/brett/.config/variety/Downloaded/Bing/OHR.StStephens_EN-US3615346032_1920x1080.jpg'
+INFO: 2020-06-19 17:43:45,813: save_locally() 'Download complete'
+INFO: 2020-06-19 17:43:45,814: update_indicator() 'Setting file info to: /usr/share/backgrounds/arcolinux/nano-schematic-infraorange-3840x2400.jpg'
+INFO: 2020-06-19 17:43:45,816: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2020-06-19 17:43:45,817: download_one_from() 'Adding downloaded file /home/brett/.config/variety/Downloaded/Bing/OHR.StStephens_EN-US3615346032_1920x1080.jpg to unseen_downloads'
+INFO: 2020-06-19 17:43:46,820: get_throttling() 'Bing: parsing serverside options'
+INFO: 2020-06-19 17:43:46,821: get_throttling() 'Could not parse Bing serverside options, using defaults None, None'
+INFO: 2020-06-19 17:43:46,822: get_throttling() 'Bing: parsing serverside options'
+INFO: 2020-06-19 17:43:46,822: get_throttling() 'Could not parse Bing serverside options, using defaults None, None'
+INFO: 2020-06-19 17:43:46,823: download_one() 'Bing: Downloading an image, config: None'
+INFO: 2020-06-19 17:43:46,823: download_one() 'Bing: Queue size: 2'
+INFO: 2020-06-19 17:43:46,823: download_one() 'Bing: Queue populated with 2 URLs'
+INFO: 2020-06-19 17:43:46,823: save_locally() 'Origin URL: https://www.bing.com/search?q=surfing+in+bali&form=hpcapt&filters=HpDate%3a%2220200615_0700%22'
+INFO: 2020-06-19 17:43:46,823: save_locally() 'Image URL: https://www.bing.com/th?id=OHR.SurfSeason_EN-US9920705587_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp'
+INFO: 2020-06-19 17:43:46,824: save_locally() 'Local path: /home/brett/.config/variety/Downloaded/Bing/OHR.SurfSeason_EN-US9920705587_1920x1080.jpg'
+INFO: 2020-06-19 17:43:46,824: save_locally() 'File already exists, skip downloading'
