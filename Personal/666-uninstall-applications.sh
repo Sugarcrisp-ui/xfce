@@ -30,7 +30,7 @@ sudo pacman -R --noconfirm guvcview
 sudo pacman -R --noconfirm inkscape
 sudo pacman -R --noconfirm pragha
 sudo pacman -R --noconfirm simplescreenrecorder
-#sudo pacman -R --noconfirm variety
+sudo pacman -R --noconfirm midori
 sudo pacman -R --noconfirm vlc
 sudo pacman -R --noconfirm termite
 sudo pacman -R --noconfirm synapse
