@@ -40,9 +40,9 @@ touch ~/.xshrc-personal
 cp $installed_dir/settings/shell-personal/.bashrc-personal ~
 cp $installed_dir/settings/shell-personal/.zshrc-personal ~
 
-echo "Installing personal settings of variety"
+#echo "Installing personal settings of variety"
 
-cp $installed_dir/settings/variety/variety.conf ~/.config/variety/
+#cp $installed_dir/settings/variety/variety.conf ~/.config/variety/
 
 echo "Installing screenkey for teaching"
 
