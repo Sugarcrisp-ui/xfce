@@ -31,7 +31,7 @@ sudo pacman -S --noconfirm --needed virtualbox-guest-utils
 sudo pacman -S --noconfirm --needed virtualbox-host-dkms
 sudo pacman -S --noconfirm --needed qbittorrent
 sudo pacman -S --noconfirm --needed redshift
-sudo pacman -S --noconfirm --needed redshift-gtk
+#sudo pacman -S --noconfirm --needed 
 sudo pacman -S --noconfirm --needed gnome-screenshot
 sudo pacman -S --noconfirm --needed viber
 sudo pacman -S --noconfirm --needed libreoffice-fresh
