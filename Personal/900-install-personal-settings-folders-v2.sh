@@ -34,6 +34,9 @@ echo "Installing .bashrc-personal"
 
 installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
 
+touch ~/.bashrc-personal
+touch ~/.xshrc-personal
+
 cp $installed_dir/settings/shell-personal/.bashrc-personal ~
 cp $installed_dir/settings/shell-personal/.zshrc-personal ~
 
