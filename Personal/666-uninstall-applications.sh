@@ -36,7 +36,6 @@ sudo pacman -R --noconfirm termite
 sudo pacman -R --noconfirm synapse
 sudo pacman -R --noconfirm gpick
 sudo pacman -R --noconfirm plank
-sudo pacman -R --noconfirm powertop
 sudo pacman -R --noconfirm nomacs
 sudo pacman -R --noconfirm youtube-dl
 sudo pacman -R --noconfirm screenkey
