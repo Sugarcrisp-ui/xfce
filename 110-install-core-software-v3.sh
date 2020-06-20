@@ -58,7 +58,6 @@ sudo pacman -S --noconfirm --needed samba
 sudo pacman -S --noconfirm --needed blueberry
 sudo pacman -S --noconfirm --needed paprefs
 sudo pacman -S --noconfirm --needed pavucontrol
-sudo pacman -S --noconfirm --needed disks
 sudo pacman -S --noconfirm --needed gedit
 
 #sudo pacman -S --noconfirm --needed
