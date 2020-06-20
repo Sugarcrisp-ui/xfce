@@ -31,7 +31,7 @@ sudo pacman -S --noconfirm --needed virtualbox-guest-utils
 sudo pacman -S --noconfirm --needed virtualbox-host-dkms
 sudo pacman -S --noconfirm --needed qbittorrent
 sudo pacman -S --noconfirm --needed redshift
-#sudo pacman -S --noconfirm --needed 
+sudo pacman -S --noconfirm --needed gnome-calculator
 sudo pacman -S --noconfirm --needed gnome-screenshot
 sudo pacman -S --noconfirm --needed viber
 sudo pacman -S --noconfirm --needed libreoffice-fresh
@@ -55,6 +55,9 @@ sudo pacman -S --noconfirm --needed discord
 sudo pacman -S --noconfirm --needed xreader
 sudo pacman -S --noconfirm --needed etcher-bin
 sudo pacman -S --noconfirm --needed samba
+sudo pacman -S --noconfirm --needed blueberry
+sudo pacman -S --noconfirm --needed paprefs
+sudo pacman -S --noconfirm --needed pavucontrol
 
 #sudo pacman -S --noconfirm --needed
 #sudo pacman -S --noconfirm --needed arcolinux-meta-fun
