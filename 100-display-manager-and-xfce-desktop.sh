@@ -54,10 +54,7 @@ arcolinux-wallpapers-git
 xfce4
 xfce4-goodies
 arcolinux-logout-git
-gnome
 )
-
-#gnome-extra can be added too
 
 count=0
 
