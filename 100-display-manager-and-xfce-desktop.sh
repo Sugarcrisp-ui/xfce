@@ -54,7 +54,10 @@ arcolinux-wallpapers-git
 xfce4
 xfce4-goodies
 arcolinux-logout-git
+gnome
 )
+
+#gnome-extra can be added too
 
 count=0
 
@@ -77,6 +80,12 @@ echo "Enabling lightdm as display manager"
 echo "################################################################"
 echo;tput sgr0
 sudo systemctl enable lightdm.service -f
+
+tput setaf 2;echo "################################################################"
+echo "Removing packages we do not want"
+echo "################################################################"
+echo;tput sgr0
+sudo pacman -R xfce4-artwork xfce4-screensaver --noconfirm
 
 tput setaf 7;echo "################################################################"
 echo "You now have a very minimal functional desktop"
