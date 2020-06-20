@@ -44,7 +44,7 @@ sudo pacman -R --noconfirm wttr
 sudo pacman -R --noconfirm xfburn
 sudo pacman -R --noconfirm caja
 sudo pacman -R --noconfirm pulseaudio-equalizer-ladspa
-#sudo pacman -R --noconfirm autorandr
+sudo pacman -R --noconfirm vim
 #sudo pacman -R --noconfirm clipgrab
 sudo pacman -R --noconfirm totem
 #sudo pacman -R --noconfirm udisks2
