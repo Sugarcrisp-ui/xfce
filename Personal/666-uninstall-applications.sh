@@ -40,19 +40,11 @@ sudo pacman -R --noconfirm powertop
 sudo pacman -R --noconfirm nomacs
 sudo pacman -R --noconfirm youtube-dl
 sudo pacman -R --noconfirm electron
-#sudo pacman -R --noconfirm moka-icon-theme
-#sudo pacman -R --noconfirm numix-circle-arc-icons-git
-#sudo pacman -R --noconfirm numix-icon-theme-git
-#sudo pacman -R --noconfirm numix-circle-icon-theme-git
-#sudo pacman -R --noconfirm zafiro-icon-theme
-#sudo pacman -R --noconfirm font-manager
-sudo pacman -R --noconfirm peek
 sudo pacman -R --noconfirm screenkey
 sudo pacman -R --noconfirm temps
 sudo pacman -R --noconfirm wttr
 sudo pacman -R --noconfirm xfburn
 sudo pacman -R --noconfirm caja
-sudo pacman -R --noconfirm gnome-software-packagekit-plugin
 sudo pacman -R --noconfirm pulseaudio-equalizer-ladspa
 #sudo pacman -R --noconfirm autorandr
 #sudo pacman -R --noconfirm clipgrab
@@ -63,17 +55,8 @@ sudo pacman -R --noconfirm vivaldi-ffmpeg-codecs
 sudo pacman -R --noconfirm vivaldi-widevine
 sudo pacman -R --noconfirm vivaldi
 sudo pacman -R --noconfirm brave
-sudo pacman -R --noconfirm gnome-boxes
 sudo pacman -R --noconfirm parole
-sudo pacman -R --noconfirm gnome-books
-sudo pacman -R --noconfirm gnome-contacts
 sudo pacman -R --noconfirm xfce4-evince
-sudo pacman -R --noconfirm gnome-calendar
-sudo pacman -R --noconfirm nautilus
-sudo pacman -R --noconfirm gnome-maps
-sudo pacman -R --noconfirm gnome-music
-sudo pacman -R --noconfirm gnome-photos
-sudo pacman -R --noconfirm epiphany
 sudo pacman -R --noconfirm nemo
 
 echo "################################################################"
