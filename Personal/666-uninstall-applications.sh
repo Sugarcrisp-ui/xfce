@@ -39,7 +39,7 @@ sudo pacman -R --noconfirm plank
 sudo pacman -R --noconfirm powertop
 sudo pacman -R --noconfirm nomacs
 sudo pacman -R --noconfirm youtube-dl
-#sudo pacman -R --noconfirm halo-icons-git
+sudo pacman -R --noconfirm electron
 #sudo pacman -R --noconfirm moka-icon-theme
 #sudo pacman -R --noconfirm numix-circle-arc-icons-git
 #sudo pacman -R --noconfirm numix-icon-theme-git
@@ -55,9 +55,7 @@ sudo pacman -R --noconfirm caja
 sudo pacman -R --noconfirm gnome-software-packagekit-plugin
 sudo pacman -R --noconfirm pulseaudio-equalizer-ladspa
 #sudo pacman -R --noconfirm autorandr
-sudo pacman -R --noconfirm gnome-software
 #sudo pacman -R --noconfirm clipgrab
-#sudo pacman -R --noconfirm gnome-screenshot
 sudo pacman -R --noconfirm totem
 #sudo pacman -R --noconfirm udisks2
 #sudo pacman -R --noconfirm arcolinux-meta-fun
