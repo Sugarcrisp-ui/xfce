@@ -39,7 +39,6 @@ sudo pacman -R --noconfirm plank
 sudo pacman -R --noconfirm powertop
 sudo pacman -R --noconfirm nomacs
 sudo pacman -R --noconfirm youtube-dl
-sudo pacman -R --noconfirm electron
 sudo pacman -R --noconfirm screenkey
 sudo pacman -R --noconfirm temps
 sudo pacman -R --noconfirm wttr
