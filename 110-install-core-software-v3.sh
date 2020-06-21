@@ -59,6 +59,7 @@ sudo pacman -S --noconfirm --needed blueberry
 sudo pacman -S --noconfirm --needed paprefs
 sudo pacman -S --noconfirm --needed pavucontrol
 sudo pacman -S --noconfirm --needed gedit
+sudo pacman -S --noconfirm --needed hardcode-fixer-git
 sudo pacman -S --noconfirm --needed htop
 
 #sudo pacman -S --noconfirm --needed
