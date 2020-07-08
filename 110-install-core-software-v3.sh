@@ -61,7 +61,12 @@ sudo pacman -S --noconfirm --needed pavucontrol
 sudo pacman -S --noconfirm --needed gedit
 sudo pacman -S --noconfirm --needed hardcode-fixer-git
 sudo pacman -S --noconfirm --needed htop
-
+sudo pacman -S --noconfirm --needed arcolinux-bin-git
+#sudo pacman -S --noconfirm --needed
+#sudo pacman -S --noconfirm --needed
+#sudo pacman -S --noconfirm --needed
+#sudo pacman -S --noconfirm --needed
+#sudo pacman -S --noconfirm --needed
 #sudo pacman -S --noconfirm --needed
 #sudo pacman -S --noconfirm --needed arcolinux-meta-fun
 
