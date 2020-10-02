@@ -85,14 +85,23 @@ Keyboard Shortcuts
 	- xkill = super+esc
 	
 Windows Manager
-	- close window = Lalt+backspace
+	- close window = ctrl+backspace
 	- toggle fullscreen = super+Rshift
 	- tile window to the top = super+up
 	- tile window to the bottom = super+dn
 	- tile window to the left = super+left
 	- tile window to the right = super+right
 	- hide window (minimize) = super+m
-	
+		
+Bluetooth Icon
+	- dconf editor
+		-blueman
+			-disable "use symbolic icons"
+			
+Appimages
+	-brave browser
+	-losslesscut
+	-github desktop
 AUR
 	-enable aur in pamac (add and remove programs)
 	
