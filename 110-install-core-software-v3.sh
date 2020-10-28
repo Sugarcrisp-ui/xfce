@@ -1,18 +1,6 @@
 #!/bin/bash
 set -e
 ##################################################################################################################
-# Author 	: Erik Dubois
-# Website : https://www.erikdubois.be
-# Website	: https://www.arcolinux.info
-# Website	:	./https://www.arcolinux.com
-# Website	:	https://www.arcolinuxd.com
-# Website	:	https://www.arcolinuxforum.com
-##################################################################################################################
-#
-#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
-#
-##################################################################################################################
-
 #software from Arch Linux repositories
 
 sudo pacman -S --noconfirm --needed xfce4-whiskermenu-plugin
@@ -42,7 +30,7 @@ sudo pacman -S --noconfirm --needed gimp
 sudo pacman -S --noconfirm --needed variety
 sudo pacman -S --noconfirm --needed bitwarden
 sudo pacman -S --noconfirm --needed chromium
-#sudo pacman -S --noconfirm --needed firefox
+sudo pacman -S --noconfirm --needed firefox
 sudo pacman -S --noconfirm --needed arcolinux-tweak-tool-git
 sudo pacman -S --noconfirm --needed arcolinux-logout-themes-git
 sudo pacman -S --noconfirm --needed xfce4-whiskermenu-plugin
@@ -68,7 +56,7 @@ sudo pacman -S --noconfirm --needed sublime-text-dev
 #sudo pacman -S --noconfirm --needed
 #sudo pacman -S --noconfirm --needed
 #sudo pacman -S --noconfirm --needed
-#sudo pacman -S --noconfirm --needed arcolinux-meta-fun
+#sudo pacman -S --noconfirm --needed
 
 
 

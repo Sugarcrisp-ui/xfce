@@ -2,10 +2,10 @@
 Encoding=UTF-8
 Version=0.9.4
 Type=Application
-Name=thunar
+Name=xfce terminal
 Comment=
-Exec=thunar
+Exec=exo-open --launch TerminalEmulator
 StartupNotify=false
-Terminal=false
+Terminal=
 Hidden=false
 
