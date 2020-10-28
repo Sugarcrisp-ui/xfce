@@ -98,11 +98,6 @@ Bluetooth Icon
 		-blueman
 			-disable "use symbolic icons"
 			
-Appimages
-	-brave browser
-	-losslesscut
-	-github desktop
-	
 AUR
 	-enable aur in pamac (add and remove programs)
 	
@@ -116,5 +111,4 @@ Create Ice SSB
 	-netflix
 	-sharesight
 	-trakt-tv
-	-
 	
