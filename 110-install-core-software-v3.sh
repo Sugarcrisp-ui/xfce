@@ -10,7 +10,7 @@ sudo pacman -S --noconfirm --needed gparted
 sudo pacman -S --noconfirm --needed dconf
 sudo pacman -S --noconfirm --needed spotify
 sudo pacman -S --noconfirm --needed geany
-#sudo pacman -S --noconfirm --needed insync
+sudo pacman -S --noconfirm --needed insync
 sudo pacman -S --noconfirm --needed bitwarden-bin
 sudo pacman -S --noconfirm --needed catfish
 sudo pacman -S --noconfirm --needed grub-customizer
