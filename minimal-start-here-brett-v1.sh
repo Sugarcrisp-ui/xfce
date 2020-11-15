@@ -16,14 +16,16 @@ sudo pacman -Syyu --noconfirm
 
 yay -Syu --noconfirm
 
-cp -r DATA ~
+#cp -r DATA ~
+mkdir DATA
 #cp -r VirtualBox\ VMs/ ~
 
 cd ~/DATA
 
 [ -d ~/DATA/arco-xfce-brett ] || git clone https://github.com/Sugarcrisp-ui/arco-xfce-brett
 
-chmod +x -R ~/DATA/*
+#chmod +x -R ~/DATA/*
+chmod +x -R ~/DATA
 
 cd ~/DATA/arco-xfce-brett
 
