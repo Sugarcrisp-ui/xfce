@@ -38,9 +38,9 @@ sh 200-software-AUR-repo*
 
 cd ~/DATA/arco-xfce-brett/AUR
 
-sh authy
+sh authy*
 sh cryptomator-v1*
-sh github-desktop
+sh github-desktop*
 sh gnome-disk-utility*
 sh gnome-gtkhash-v1*
 sh ice-dev-v1*
