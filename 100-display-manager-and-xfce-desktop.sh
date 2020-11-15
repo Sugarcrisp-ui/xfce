@@ -37,7 +37,15 @@ arcolinux-lightdm-gtk-greeter-settings
 arcolinux-wallpapers-git
 xfce4
 xfce4-goodies
+dmenu
+gmrun
+arolinux-config-xfce-git
+aroclinux-local-xfce4-git
 arcolinux-logout-git
+aroclinux-root-git
+arcolinux-tweak-tool-git
+arcolinux-xfce-dconf-git
+arcolinux-xfce-git
 )
 
 count=0
