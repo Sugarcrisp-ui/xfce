@@ -38,11 +38,13 @@ sh 200-software-AUR-repo*
 
 cd ~/DATA/arco-xfce-brett/AUR
 
-sh authy*
-sh gnome-disk-utility*
+sh authy
 sh cryptomator-v1*
+sh github-desktop
+sh gnome-disk-utility*
 sh gnome-gtkhash-v1*
 sh ice-dev-v1*
+sh mcmojave-circle-icon-theme-git*
 sh realvnc-vnc-viewer-v1*
 
 cd ~/DATA/arco-xfce-brett/Personal
