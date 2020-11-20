@@ -26,7 +26,7 @@ sudo pacman -S --noconfirm --needed libreoffice-fresh
 sudo pacman -S --noconfirm --needed meld
 sudo pacman -S --noconfirm --needed udisks2
 sudo pacman -S --noconfirm --needed grsync
-sudo pacman -S --noconfirm --needed gimp
+#sudo pacman -S --noconfirm --needed gimp
 sudo pacman -S --noconfirm --needed variety
 sudo pacman -S --noconfirm --needed bitwarden
 sudo pacman -S --noconfirm --needed chromium
