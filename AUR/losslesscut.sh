@@ -1,5 +1,9 @@
 #!/bin/bash
-set -e
+# The set command is used to determine action if error 
+# is encountered.  (-e) will stop and exit (+e) will 
+# continue with the script.
+set +e
+
 ##################################################################################################################
 #tput setaf 0 = black #tput setaf 1 = red #tput setaf 2 = green
 #tput setaf 3 = yellow #tput setaf 4 = dark blue #tput setaf 5 = purple

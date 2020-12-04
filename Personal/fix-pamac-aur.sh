@@ -1,5 +1,9 @@
 #!/bin/bash
-set -e
+# The set command is used to determine action if error 
+# is encountered.  (-e) will stop and exit (+e) will 
+# continue with the script.
+set +e
+
 # https://aur.archlinux.org/packages/pamac-aur/
 
 echo "Fix to show icons and applications in pamac-aur"

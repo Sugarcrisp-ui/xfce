@@ -1,5 +1,9 @@
 #!/bin/bash
-set -e
+# The set command is used to determine action if error 
+# is encountered.  (-e) will stop and exit (+e) will 
+# continue with the script.
+set +e
+
 [ -d $HOME"/.fonts" ] || mkdir -p $HOME"/.fonts"
 
 

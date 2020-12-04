@@ -1,5 +1,8 @@
 #!/bin/bash
-set -e
+# The set command is used to determine action if error 
+# is encountered.  (-e) will stop and exit (+e) will 
+# continue with the script.
+set +e
 ##################################################################################################################
 echo "Creating private folders we use later"
 

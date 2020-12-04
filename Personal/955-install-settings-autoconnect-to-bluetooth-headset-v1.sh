@@ -1,5 +1,9 @@
 #!/bin/bash
-set -e
+# The set command is used to determine action if error 
+# is encountered.  (-e) will stop and exit (+e) will 
+# continue with the script.
+set +e
+
 ##################################################################################################################
 #settings for a bluetooth headset
 #after reboot switch off and on your device to get connected automatically and to the right channel

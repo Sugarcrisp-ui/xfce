@@ -1,5 +1,9 @@
 #!/bin/bash
-set -e
+# The set command is used to determine action if error 
+# is encountered.  (-e) will stop and exit (+e) will 
+# continue with the script.
+set +e
+
 FIND='#PACKAGER="John Doe <john@doe.com>"'
 REPLACE='PACKAGER="Brett Crisp <brettcrisp2@gmail.com>"'
 
