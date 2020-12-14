@@ -58,8 +58,8 @@ sudo pacman -S --noconfirm --needed sublime-text-dev
 sudo pacman -S --noconfirm --needed brave-bin
 sudo pacman -S --noconfirm --needed pulseaudio
 sudo pacman -S --noconfirm --needed menulibre
-#sudo pacman -S --noconfirm --needed
-#sudo pacman -S --noconfirm --needed
+sudo pacman -S --noconfirm --needed openshot
+sudo pacman -S --noconfirm --needed whatsapp-nativefier
 #sudo pacman -S --noconfirm --needed
 
 
