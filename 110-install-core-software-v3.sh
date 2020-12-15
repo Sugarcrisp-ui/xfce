@@ -40,7 +40,7 @@ sudo pacman -S --noconfirm --needed arcolinux-logout-themes-git
 sudo pacman -S --noconfirm --needed xfce4-whiskermenu-plugin
 sudo pacman -S --noconfirm --needed pamac
 sudo pacman -S --noconfirm --needed conky-lua-archers
-sudo pacman -S --noconfirm --needed calibre-common
+sudo pacman -S --noconfirm --needed calibre
 sudo pacman -S --noconfirm --needed caprine
 sudo pacman -S --noconfirm --needed cawbird
 sudo pacman -S --noconfirm --needed discord
