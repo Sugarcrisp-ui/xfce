@@ -69,11 +69,6 @@ sudo pacman -S --noconfirm --needed betterlockscreen
 #sudo pacman -S --noconfirm --needed
 #sudo pacman -S --noconfirm --needed
 
-
-
-
-
-
 ###############################################################################################
 
 echo "################################################################"
