@@ -19,7 +19,7 @@ sudo pacman -R --noconfirm synapse
 sudo pacman -R --noconfirm gpick
 sudo pacman -R --noconfirm plank
 sudo pacman -R --noconfirm nomacs
-sudo pacman -R --noconfirm youtube-dl
+#sudo pacman -R --noconfirm youtube-dl
 sudo pacman -R --noconfirm screenkey
 sudo pacman -R --noconfirm temps
 sudo pacman -R --noconfirm wttr
@@ -37,7 +37,7 @@ sudo pacman -R --noconfirm vivaldi
 #sudo pacman -R --noconfirm brave
 sudo pacman -R --noconfirm parole
 sudo pacman -R --noconfirm xfce4-evince
-sudo pacman -R --noconfirm nemo
+#sudo pacman -R --noconfirm nemo
 
 echo "################################################################"
 echo "####                      packages uninstalled            ######"

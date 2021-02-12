@@ -46,7 +46,10 @@ sudo pacman -S --noconfirm --needed discord
 sudo pacman -S --noconfirm --needed xreader
 sudo pacman -S --noconfirm --needed etcher-bin
 sudo pacman -S --noconfirm --needed samba
-sudo pacman -S --noconfirm --needed blueberry
+#sudo pacman -S --noconfirm --needed blueberry
+sudo pacman -S --noconfirm --needed bluez
+sudo pacman -S --noconfirm --needed bluez-utils
+sudo pacman -S --noconfirm --needed blueman
 sudo pacman -S --noconfirm --needed paprefs
 sudo pacman -S --noconfirm --needed pavucontrol
 sudo pacman -S --noconfirm --needed gedit
@@ -60,7 +63,7 @@ sudo pacman -S --noconfirm --needed menulibre
 sudo pacman -S --noconfirm --needed openshot
 sudo pacman -S --noconfirm --needed whatsapp-nativefier
 sudo pacman -S --noconfirm --needed betterlockscreen
-#sudo pacman -S --noconfirm --needed
+sudo pacman -S --noconfirm --needed nemo
 #sudo pacman -S --noconfirm --needed
 #sudo pacman -S --noconfirm --needed
 #sudo pacman -S --noconfirm --needed
