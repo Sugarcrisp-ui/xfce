@@ -57,7 +57,6 @@ sudo pacman -S --noconfirm --needed hardcode-fixer-git
 sudo pacman -S --noconfirm --needed htop
 sudo pacman -S --noconfirm --needed arcolinux-bin-git
 sudo pacman -S --noconfirm --needed sublime-text-dev
-#sudo pacman -S --noconfirm --needed brave-bin
 sudo pacman -S --noconfirm --needed pulseaudio
 sudo pacman -S --noconfirm --needed menulibre
 sudo pacman -S --noconfirm --needed openshot
