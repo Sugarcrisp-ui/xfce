@@ -37,7 +37,7 @@ sudo pacman -R --noconfirm vivaldi
 sudo pacman -R --noconfirm brave
 sudo pacman -R --noconfirm parole
 sudo pacman -R --noconfirm xfce4-evince
-sudo pacman -R --noconfirm nemo
+#sudo pacman -R --noconfirm nemo
 
 echo "################################################################"
 echo "####                      packages uninstalled            ######"
