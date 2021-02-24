@@ -60,7 +60,7 @@ sudo pacman -S --noconfirm --needed menulibre
 sudo pacman -S --noconfirm --needed openshot
 sudo pacman -S --noconfirm --needed whatsapp-nativefier
 sudo pacman -S --noconfirm --needed betterlockscreen
-#sudo pacman -S --noconfirm --needed
+sudo pacman -S --noconfirm --needed arcolinux-teamviewer
 #sudo pacman -S --noconfirm --needed
 #sudo pacman -S --noconfirm --needed
 #sudo pacman -S --noconfirm --needed
