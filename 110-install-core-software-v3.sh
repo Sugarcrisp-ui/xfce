@@ -100,7 +100,7 @@ menulibre
 openshot
 whatsapp-nativefier
 betterlockscreen
-nemo
+powerline
 )
 
 count=0
