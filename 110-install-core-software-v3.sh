@@ -93,7 +93,8 @@ gedit
 hardcode-fixer-git
 htop
 arcolinux-bin-git
-sublime-text-dev
+#sublime-text-dev
+notepadqq
 pulseaudio
 menulibre
 openshot
