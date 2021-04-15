@@ -94,11 +94,10 @@ hardcode-fixer-git
 htop
 arcolinux-bin-git
 sublime-text-dev
-notepadqq
+#notepadqq
 pulseaudio
 menulibre
 openshot
-whatsapp-nativefier
 betterlockscreen
 powerline
 )
