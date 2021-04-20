@@ -47,6 +47,7 @@ func_category Core Software
 list=(
 arcolinux-bin-git
 arcolinux-logout-themes-git
+arcolinux-sddm-sugar-candy
 arcolinux-tweak-tool-git
 betterlockscreen
 bitwarden
@@ -86,8 +87,12 @@ pavucontrol
 powerline
 pulseaudio
 qbittorrent
+qt5-graphicaleffects
+qt5-quickcontrols2
+qt5-svg
 redshift
 samba
+sddm
 spotify
 sublime-text-dev
 udisks2
