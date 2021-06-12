@@ -35,7 +35,7 @@ echo "Installation of the core software"
 ###############################################################################
 
 list=(
-lightdm
+sddm
 arcolinux-lightdm-gtk-greeter
 arcolinux-lightdm-gtk-greeter-settings
 arcolinux-wallpapers-git
@@ -50,6 +50,7 @@ aroclinux-root-git
 arcolinux-tweak-tool-git
 arcolinux-xfce-dconf-git
 arcolinux-xfce-git
+paru-bin
 )
 
 count=0
@@ -72,7 +73,7 @@ tput setaf 5;echo "#############################################################
 echo "Enabling lightdm as display manager"
 echo "################################################################"
 echo;tput sgr0
-sudo systemctl enable lightdm.service -f
+sudo systemctl enable sddm.service -f
 
 tput setaf 2;echo "################################################################"
 echo "Removing packages we do not want"

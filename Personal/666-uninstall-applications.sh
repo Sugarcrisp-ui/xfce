@@ -35,7 +35,7 @@ function_remove pragha
 function_remove simplescreenrecorder
 function_remove midori
 function_remove vlc
-#function_remove termite
+function_remove termite
 function_remove synapse
 function_remove gpick
 function_remove plank

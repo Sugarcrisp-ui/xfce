@@ -92,7 +92,6 @@ qt5-quickcontrols2
 qt5-svg
 redshift
 samba
-sddm
 spotify
 sublime-text-dev
 udisks2
