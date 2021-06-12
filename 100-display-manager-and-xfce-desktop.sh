@@ -35,22 +35,20 @@ echo "Installation of the core software"
 ###############################################################################
 
 list=(
-sddm
-arcolinux-lightdm-gtk-greeter
-arcolinux-lightdm-gtk-greeter-settings
-arcolinux-wallpapers-git
-xfce4
-xfce4-goodies
-dmenu
-gmrun
 arolinux-config-xfce-git
 aroclinux-local-xfce4-git
 arcolinux-logout-git
 aroclinux-root-git
 arcolinux-tweak-tool-git
+arcolinux-wallpapers-git
 arcolinux-xfce-dconf-git
 arcolinux-xfce-git
+#dmenu
+gmrun
 paru-bin
+sddm
+xfce4
+xfce4-goodies
 )
 
 count=0
