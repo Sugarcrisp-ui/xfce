@@ -69,7 +69,7 @@ firefox
 geany
 gedit
 gnome-calculator
-gnome-screenshot
+#gnome-screenshot
 gparted
 grsync
 grub-customizer
