@@ -45,6 +45,7 @@ func_category() {
 func_category Core Software
 
 list=(
+alacritty	
 arcolinux-bin-git
 arcolinux-logout-themes-git
 arcolinux-sddm-sugar-candy
