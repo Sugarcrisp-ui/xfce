@@ -93,7 +93,7 @@ qt5-svg
 redshift
 #samba
 spotify
-sublime-text-dev
+sublime-text-4
 udisks2
 variety
 #viber
