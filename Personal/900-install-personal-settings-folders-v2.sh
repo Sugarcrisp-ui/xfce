@@ -80,6 +80,23 @@ tput sgr0
 
 cp $installed_dir/.bashrc-personal ~
 
+tput setaf 11;
+echo "################################################################"
+echo "Copying sddm themes"
+echo ""
+echo "################################################################"
+tput sgr0
+
+cd ~/DATA/personal-settings/arcolinux-sugar-candy/
+
+sudo cp $installed_dir/theme.conf /usr/share/sddm/themes/arcolinux-sugar-candy/
+
+cd ~/DATA/personal-settings/arcolinux-sugar-candy/Backgrounds/
+
+sudo cp $installed_dir/arco-login-plasma.jpg /usr/share/sddm/themes/arcolinux-sugar-candy/Backgrounds/
+
+sudo cp $installed_dir/bluez-7650x5120.jpg /usr/share/sddm/themes/arcolinux-sugar-candy/Backgrounds/
+
 #echo "Installing personal settings of variety"
 
 #cp $installed_dir/settings/variety/variety.conf ~/.config/variety/
