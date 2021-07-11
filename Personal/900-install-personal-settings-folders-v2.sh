@@ -84,27 +84,6 @@ cp $installed_dir/.bashrc-personal ~
 
 #cp $installed_dir/settings/variety/variety.conf ~/.config/variety/
 
-cd ~/brett/.config
-
-tput setaf 11;
-echo "################################################################"
-echo "Copying arcolinux-welcome-app"
-echo ""
-echo "################################################################"
-tput sgr0
-
-cp -R $installed_dir/arcolinux-welcome-app
-
-tput setaf 11;
-echo "################################################################"
-echo "Copying autostart"
-echo ""
-echo "################################################################"
-tput sgr0
-
-cp $installed_dir/autostart
-
-
 cd ~/DATA/arco-xfce-brett/Personal
 
 
