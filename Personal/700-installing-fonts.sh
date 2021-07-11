@@ -56,7 +56,7 @@ ttf-bitstream-vera
 ttf-droid
 ttf-hack
 ttf-inconsolata
-ttf-liberation
+#ttf-liberation
 #ttf-roboto
 ttf-ubuntu-font-family
 tamsyn-font

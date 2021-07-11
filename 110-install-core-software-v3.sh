@@ -47,7 +47,7 @@ func_category Core Software
 list=(
 arcolinux-bin-git
 #arcolinux-logout-themes-git
-arcolinux-sddm-sugar-candy-git
+#arcolinux-sddm-sugar-candy-git
 #arcolinux-tweak-tool-git
 #betterlockscreen-git
 bitwarden
@@ -95,7 +95,7 @@ redshift
 simplescreenrecorder
 spotify
 sublime-text-4
-udisks2
+#udisks2
 variety
 #viber
 virtualbox

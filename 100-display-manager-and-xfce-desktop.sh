@@ -35,20 +35,20 @@ echo "Installation of the core software"
 ###############################################################################
 
 list=(
-arolinux-config-xfce-git
-aroclinux-local-xfce4-git
-arcolinux-logout-git
-aroclinux-root-git
-arcolinux-tweak-tool-git
-arcolinux-wallpapers-git
-arcolinux-xfce-dconf-git
-arcolinux-xfce-git
+arcolinux-config-xfce-git
+#arcolinux-local-xfce4-git
+#arcolinux-logout-git
+arcolinux-root-git
+#arcolinux-tweak-tool-git
+#arcolinux-wallpapers-git
+#arcolinux-xfce-dconf-git
+#arcolinux-xfce-git
 #dmenu
-gmrun
-paru-bin
-sddm
-xfce4
-xfce4-goodies
+#gmrun
+#paru-bin
+#sddm
+#xfce4
+#xfce4-goodies
 )
 
 count=0
@@ -65,10 +65,12 @@ tput setaf 6;echo "#############################################################
 echo "Copying all files and folders from /etc/skel to ~"
 echo "################################################################"
 echo;tput sgr0
-cp -Rf ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S) && cp -rf /etc/skel/* ~
+#cp -Rf ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S) && cp -rf /etc/skel/* ~
+
+skel
 
 tput setaf 5;echo "################################################################"
-echo "Enabling lightdm as display manager"
+echo "Enabling sddm as display manager"
 echo "################################################################"
 echo;tput sgr0
 sudo systemctl enable sddm.service -f
