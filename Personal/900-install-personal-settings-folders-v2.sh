@@ -18,35 +18,52 @@ echo "Creating personal folders"
 #[ -d $HOME"/ARCOLINUX" ] || mkdir -p $HOME"/ARCOLINUX"
 #[ -d $HOME"/ARCOLINUXD" ] || mkdir -p $HOME"/ARCOLINUXD"
 #[ -d $HOME"/ARCOLINUXB" ] || mkdir -p $HOME"/ARCOLINUXB"
+[ -d $HOME"/.bin-personal" ] || mkdir -p $HOME"/.bin-personal"
+[ -d $HOME"/.ssh" ] || mkdir -p $HOME"/.ssh"
+[ -d $HOME"/Appimages" ] || mkdir -p $HOME"/Appimages"
 [ -d $HOME"/DATA" ] || mkdir -p $HOME"/DATA"
 [ -d $HOME"/Insync" ] || mkdir -p $HOME"/Insync"
 
-echo "Installing .bashrc-personal"
+cd ~/DATA/personal-settings
+
+echo "Copying .bin-personal"
 
 installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
 
-touch ~/.bashrc-personal
-touch ~/.xshrc-personal
+cp $installed_dir/.bin-personal ~
 
-cp $installed_dir/settings/shell-personal/.bashrc-personal ~
-cp $installed_dir/settings/shell-personal/.zshrc-personal ~
+echo "Copying .config"
+
+cp -R $installed_dir/.config ~
+
+echo "Copying .local"
+
+cp -R $installed_dir/.local ~
+
+echo "Copying .ssh"
+
+cp $installed_dir/.ssh ~
+
+echo "Copying arcolinux-welcome-app"
+
+cp -R $installed_dir/arcolinux-welcome-app
+
+echo "Copying autostart"
+
+cp $installed_dir/autostart
+
+echo "Copying .bashrc-personal"
+
+#touch ~/.bashrc-personal
+
+cp $installed_dir/.bashrc-personal ~
 
 #echo "Installing personal settings of variety"
 
 #cp $installed_dir/settings/variety/variety.conf ~/.config/variety/
 
-echo "Installing screenkey for teaching"
+cd ~/DATA/arco-xfce-brett/Personal
 
-cp $installed_dir/settings/screenkey/screenkey.json ~/.config/
-
-#echo "copy/paste wallpapers to variety"
-# DIR=$HOME"/.config/variety/Favorites/"
-# echo $DIR
-# if [ -d "$DIR" ]; then
-#   # Take action if $DIR exists. #
-#   echo "Copying files to ${DIR}..."
-#   cp ~/Dropbox/Apps/Desktoppr/* ~/.config/variety/Favorites/
-# fi
 
 echo "################################################################"
 echo "#########            folders created            ################"
