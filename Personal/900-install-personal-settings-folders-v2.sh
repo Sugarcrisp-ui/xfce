@@ -4,7 +4,13 @@
 # continue with the script.
 set +e
 ##################################################################################################################
+
+tput setaf 11
+echo "################################################################"
 echo "Creating private folders we use later"
+echo ""
+echo "################################################################"
+tput sgr0
 
 [ -d $HOME"/.bin" ] || mkdir -p $HOME"/.bin"
 [ -d $HOME"/.fonts" ] || mkdir -p $HOME"/.fonts"
@@ -13,7 +19,13 @@ echo "Creating private folders we use later"
 [ -d $HOME"/.local/share/icons" ] || mkdir -p $HOME"/.local/share/icons"
 [ -d $HOME"/.local/share/themes" ] || mkdir -p $HOME"/.local/share/themes"
 
+
+tput setaf 11
+echo "################################################################"
 echo "Creating personal folders"
+echo ""
+echo "################################################################"
+tput sgr0
 
 #[ -d $HOME"/ARCOLINUX" ] || mkdir -p $HOME"/ARCOLINUX"
 #[ -d $HOME"/ARCOLINUXD" ] || mkdir -p $HOME"/ARCOLINUXD"
@@ -26,41 +38,72 @@ echo "Creating personal folders"
 
 cd ~/DATA/personal-settings
 
+
+tput setaf 11
+echo "################################################################"
 echo "Copying .bin-personal"
+echo ""
+echo "################################################################"
+tput sgr0
 
 installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
 
-cp $installed_dir/.bin-personal ~
+cp -R $installed_dir/.bin-personal ~
 
+
+tput setaf 11
+echo "################################################################"
 echo "Copying .config"
+echo ""
+echo "################################################################"
+tput sgr0
 
 cp -R $installed_dir/.config ~
 
+
+tput setaf 11
+echo "################################################################"
 echo "Copying .local"
+echo ""
+echo "################################################################"
+tput sgr0
 
 cp -R $installed_dir/.local ~
 
-echo "Copying .ssh"
 
-cp $installed_dir/.ssh ~
-
-echo "Copying arcolinux-welcome-app"
-
-cp -R $installed_dir/arcolinux-welcome-app
-
-echo "Copying autostart"
-
-cp $installed_dir/autostart
-
+tput setaf 11
+echo "################################################################"
 echo "Copying .bashrc-personal"
-
-#touch ~/.bashrc-personal
+echo ""
+echo "################################################################"
+tput sgr0
 
 cp $installed_dir/.bashrc-personal ~
 
 #echo "Installing personal settings of variety"
 
 #cp $installed_dir/settings/variety/variety.conf ~/.config/variety/
+
+cd ~/brett/.config
+
+tput setaf 11
+echo "################################################################"
+echo "Copying arcolinux-welcome-app"
+echo ""
+echo "################################################################"
+tput sgr0
+
+cp -R $installed_dir/arcolinux-welcome-app
+
+tput setaf 11
+echo "################################################################"
+echo "Copying autostart"
+echo ""
+echo "################################################################"
+tput sgr0
+
+cp $installed_dir/autostart
+
 
 cd ~/DATA/arco-xfce-brett/Personal
 

@@ -46,14 +46,14 @@ func_category Core Software
 
 list=(
 arcolinux-bin-git
-arcolinux-logout-themes-git
-arcolinux-sddm-sugar-candy
-arcolinux-tweak-tool-git
-betterlockscreen-git
+#arcolinux-logout-themes-git
+arcolinux-sddm-sugar-candy-git
+#arcolinux-tweak-tool-git
+#betterlockscreen-git
 bitwarden
 #blueberry
 blueman
-bluez
+#bluez
 bluez-utils
 calibre
 caprine
@@ -62,7 +62,7 @@ celluloid
 chromium
 clipgrab
 conky-lua-archers
-dconf
+#dconf
 discord
 etcher-bin
 firefox
@@ -70,7 +70,7 @@ firefox
 gedit
 gnome-calculator
 #gnome-screenshot
-gparted
+#gparted
 grsync
 grub-customizer
 hardcode-fixer-git
@@ -85,13 +85,14 @@ pamac
 paprefs
 pavucontrol
 powerline
-pulseaudio
+#pulseaudio
 qbittorrent
-qt5-graphicaleffects
-qt5-quickcontrols2
-qt5-svg
+#qt5-graphicaleffects
+#qt5-quickcontrols2
+#qt5-svg
 redshift
 #samba
+simplescreenrecorder
 spotify
 sublime-text-4
 udisks2
@@ -101,7 +102,7 @@ virtualbox
 virtualbox-guest-utils
 virtualbox-host-dkms
 #whatsapp-nativefier
-xfce4-whiskermenu-plugin
+#xfce4-whiskermenu-plugin
 xreader
 )
 
