@@ -49,7 +49,7 @@ arcolinux-bin-git
 arcolinux-logout-themes-git
 arcolinux-sddm-sugar-candy
 arcolinux-tweak-tool-git
-betterlockscreen
+betterlockscreen-git
 bitwarden
 #blueberry
 blueman
@@ -93,7 +93,7 @@ qt5-svg
 redshift
 #samba
 spotify
-sublime-text-dev
+sublime-text-4
 udisks2
 variety
 #viber
