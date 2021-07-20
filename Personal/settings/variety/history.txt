@@ -1,3 +1,0 @@
-0
-/usr/share/backgrounds/arcolinux/nano-schematic-infraorange-3840x2400.jpg
-/usr/share/backgrounds/gnome/adwaita-timed.xml
