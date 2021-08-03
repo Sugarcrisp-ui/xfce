@@ -103,6 +103,15 @@ sudo cp $installed_dir/bluez-7650x5120.jpg /usr/share/sddm/themes/arcolinux-suga
 
 cd ~/DATA/arco-xfce-brett/Personal
 
+tput setaf 11;
+echo "################################################################"
+echo "Copying personal config settings to /personal"
+echo ""
+echo "################################################################"
+tput sgr0
+
+sudo cp -rf ~DATA/personal-settings /personal
+
 
 echo "################################################################"
 echo "#########            folders created            ################"
