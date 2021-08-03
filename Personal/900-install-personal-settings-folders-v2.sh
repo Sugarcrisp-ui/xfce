@@ -110,7 +110,7 @@ echo ""
 echo "################################################################"
 tput sgr0
 
-sudo cp -rf ~DATA/personal-settings /personal
+sudo cp -rf ~DATA/personal-settings/* /personal
 
 
 echo "################################################################"
