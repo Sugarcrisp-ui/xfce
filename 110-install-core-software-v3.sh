@@ -79,7 +79,6 @@ htop
 insync
 libreoffice-fresh
 meld
-menulibre
 #notepadqq
 openshot
 pamac
@@ -100,8 +99,8 @@ sublime-text-4
 variety
 #viber
 virtualbox
-virtualbox-guest-utils
-virtualbox-host-dkms
+#virtualbox-guest-utils
+#virtualbox-host-dkms
 #whatsapp-nativefier
 #xfce4-whiskermenu-plugin
 xreader
