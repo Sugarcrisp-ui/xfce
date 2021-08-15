@@ -62,6 +62,7 @@ celluloid
 chromium
 clipgrab
 conky-lua-archers
+cronie
 #dconf
 discord
 etcher-bin
