@@ -104,6 +104,7 @@ virtualbox-guest-utils
 virtualbox-host-dkms
 #whatsapp-nativefier
 #xfce4-whiskermenu-plugin
+xournal
 xreader
 )
 
