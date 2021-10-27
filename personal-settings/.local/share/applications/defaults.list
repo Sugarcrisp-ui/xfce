@@ -1,2 +1,4 @@
 [Default Applications]
-application/x-vnd.cryptomator-vault-metadata=org.cryptomator.Cryptomator.desktop
+text/html=netflix.desktop;trakttv.desktop
+text/xml=netflix.desktop;trakttv.desktop
+application/xhtml_xml=netflix.desktop;trakttv.desktop

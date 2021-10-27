@@ -13,16 +13,16 @@
       "actionAfterUnlock": "IGNORE"
     },
     {
-      "id": "54qdTy18t6WF",
-      "path": "/mnt/0bc3fd76-2984-40aa-9c95-f229dbb68ee8/Local-Backup/Arcolinux",
+      "id": "g2yvqatJKQiV",
+      "path": "/home/brett/Arcolinux",
       "displayName": "Arcolinux",
-      "unlockAfterStartup": true,
+      "unlockAfterStartup": false,
       "revealAfterMount": true,
       "useCustomMountPath": false,
       "usesReadOnlyMode": false,
       "mountFlags": "",
       "filenameLengthLimit": 220,
-      "actionAfterUnlock": "IGNORE"
+      "actionAfterUnlock": "ASK"
     }
   ],
   "askedForUpdateCheck": false,

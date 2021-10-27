@@ -415,7 +415,7 @@ exec --no-startup-id sleep 3 && $(xfce4-clipman)
 exec --no-startup-id sleep 5 && $(pamac-tray)
 
 # bluetooth
-exec_always --no-startup-id sleep 6 && $(blueman-tray)
+exec_always --no-startup-id sleep 6 && $(blueman-applet)
 
 # insync
 #exec --no-startup-id sleep 7 && $(insync start)

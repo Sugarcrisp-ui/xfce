@@ -3,8 +3,10 @@ Type=Application
 Name=Github-Desktop
 Comment=
 Icon=/home/brett/Pictures/github-icon.png
-Exec=/home/brett/Appimages/GitHubDesktop-linux-2.9.0-linux4.AppImage
+Exec=/usr/bin/github-desktop
 Terminal=false
 Catgories=Development
 Path=
 StartupNotify=false
+Hidden=true
+

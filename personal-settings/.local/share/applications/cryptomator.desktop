@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Cryptomator
+Comment=AppImage
+Exec=/home/brett/Appimages/cryptomator-1.6.1-x86_64.AppImage
+Icon=/home/brett/Appimages/icons/cryptomator-icon.png
+Terminal=false
+Path=
+StartupNotify=false

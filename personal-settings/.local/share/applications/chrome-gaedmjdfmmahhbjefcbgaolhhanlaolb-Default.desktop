@@ -1,10 +1,10 @@
 [Desktop Entry]
-Version=1.0
-Terminal=false
+Version=1.1
 Type=Application
 Name=Authy
-Exec=/opt/google/chrome/google-chrome --profile-directory=Default --app-id=gaedmjdfmmahhbjefcbgaolhhanlaolb
+NoDisplay=true
 Icon=chrome-gaedmjdfmmahhbjefcbgaolhhanlaolb-Default
+Exec=/usr/bin/chromium --profile-directory=Default --app-id=gaedmjdfmmahhbjefcbgaolhhanlaolb
+Actions=
+Categories=chrome-apps;
 StartupWMClass=crx_gaedmjdfmmahhbjefcbgaolhhanlaolb
-Hidden=true
-

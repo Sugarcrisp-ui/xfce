@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Color Picker
+Comment=AppImage
+Exec=/home/brett/Appimages/Colorpicker_2.0.3.AppImage
+Icon=/home/brett/Appimages/icons/color-picker-icon.png
+Terminal=false
+Path=
+StartupNotify=false

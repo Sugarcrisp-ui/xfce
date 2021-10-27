@@ -6,7 +6,7 @@ rsync -r -t -p -o -g -v --progress -s /home/brett/.bin-personal/ /run/media/bret
 
 rsync -r -t -p -o -g -v --progress -s /home/brett/.local/share/ice/ /run/media/brett/Backup/Arcolinux/ice --delete
 
-rsync -r -t -p -o -g -v --progress -s /run/media/brett/Backup/Arcolinux/applications --delete
+rsync -r -t -p -o -g -v --progress -s /home/brett/.local/share/applications/ /run/media/brett/Backup/Arcolinux/applications --delete
 
 rsync -r -t -p -o -g -v --progress -s /home/brett/.ssh/ /run/media/brett/Backup/Arcolinux/.ssh --delete
 
@@ -29,8 +29,6 @@ rsync -r -t -p -o -g -v --progress -s /home/brett/.config/Insync/ /run/media/bre
 rsync -r -t -p -o -g -v --progress -s /home/brett/.config/polybar/ /run/media/brett/Backup/Arcolinux/.config/polybar --delete
 
 rsync -r -t -p -o -g -v --progress -s /home/brett/.config/ranger/ /run/media/brett/Backup/Arcolinux/.config/ranger --delete
-
-rsync -r -t -p -o -g -v --progress -s /home/brett/.config/syncthing/ /run/media/brett/Backup/Arcolinux/.config/syncthing --delete
 
 rsync -r -t -p -o -g -v --progress -s /home/brett/.config/Thunar/ /run/media/brett/Backup/Arcolinux/.config/Thunar --delete
 
