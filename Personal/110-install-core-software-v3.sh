@@ -1,6 +1,6 @@
 #!/bin/bash
-# The set command is used to determine action if error 
-# is encountered.  (-e) will stop and exit (+e) will 
+# The set command is used to determine action if error
+# is encountered.  (-e) will stop and exit (+e) will
 # continue with the script.
 set +e
 ###############################################################################
@@ -49,6 +49,7 @@ arcolinux-bin-git
 #arcolinux-logout-themes-git
 #arcolinux-sddm-sugar-candy-git
 #arcolinux-tweak-tool-git
+atom
 #betterlockscreen-git
 bitwarden
 #blueberry
