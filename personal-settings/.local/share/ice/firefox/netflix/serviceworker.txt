@@ -1,0 +1,11 @@
+8
+
+https://www.netflix.com/
+https://www.netflix.com/service-worker.js
+false
+{cf27fdb4-b6aa-4137-b5b1-e213adbda5af}
+0
+1623938232277902
+1623938232670588
+1623938231737970
+#

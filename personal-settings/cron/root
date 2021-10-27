@@ -1,0 +1,9 @@
+# Backup my config files to /personal.  This will allow me
+# to run alias "personal" to copy my personal config files
+# back to my directory similar to skel
+* 11 * * * /home/brett/.bin-personal/config-backup-to-personal.sh >/dev/null 2>&1
+
+# Backup to github
+* 8,20 * * * /home/brett/.bin-personal/sddm-theme-github.sh >/dev/null 2>&1
+* 8,20 * * * /home/brett/.bin-personal/cron-github.sh >/dev/null 2>&1
+

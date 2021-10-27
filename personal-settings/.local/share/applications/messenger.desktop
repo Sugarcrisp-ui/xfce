@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=Messenger
+Comment=Messenger (Ice SSB)
+Exec=firefox --class ICE-SSB-messenger --profile /home/brett/.local/share/ice/firefox/messenger --no-remote https://www.facebook.com/messages
+IceFirefox=messenger
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/brett/.local/share/ice/messenger.png
+Categories=GTK;Network;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=ICE-SSB-messenger
+StartupNotify=true

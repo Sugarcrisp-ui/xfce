@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=Keep
+Comment=Keep (Ice SSB)
+Exec=firefox --class ICE-SSB-keep --profile /home/brett/.local/share/ice/firefox/keep --no-remote https://keep.google.com/
+IceFirefox=keep
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/home/brett/.local/share/ice/keep.png
+Categories=GTK;Network;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=ICE-SSB-keep
+StartupNotify=true

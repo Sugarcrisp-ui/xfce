@@ -1,0 +1,33 @@
+# This is where I put my personal settings that will be added to the
+# .bashrc file when it is updated.  This prevents my settings from being
+# lost or overwriten
+
+# bashup reloads the .bashrc to update any changes without having to reboot.
+alias bashup='source ~/.bashrc'
+
+# update pacman and paru
+alias update='sudo pacman -Syu && paru -Syu --noconfirm && flatpak update'
+
+# copy the .local file to .local-backup
+alias buplocal='cp -Rf ~/.local ~/.local-backup-$(date +%Y.%m.%d-%H.%M.%S)'
+
+# copy config files to /personal
+alias copper='cd /home/brett/.bin-personal && sudo ./config-backup-to-personal-folder.sh'
+
+# my xfce config restore
+alias myconf='cd /home/brett/.bin-personal  &&  ./my-config-restore.sh'
+
+# Change Betterlockscreen background
+alias mybls='betterlockscreen -u ~/Pictures/background-images/blue-fabric-background.png'
+
+# provide system information
+alias sysinfo='inxi -Fxxxrz'
+
+# ssh agent
+alias ssha='eval &(ssh-agent) && ssh-add'
+
+# Reinstall usb wifi driver
+alias wifi='cd /home/brett/src/8821au/ && sudo ./remove-driver.sh && sudo ./install-driver.sh && bashup && sr'
+
+# Add .bin-personal to the PATH
+PATH="$HOME/.bin-personal:$PATH"

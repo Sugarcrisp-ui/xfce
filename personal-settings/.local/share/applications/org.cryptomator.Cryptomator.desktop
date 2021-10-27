@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Cryptomator
+Comment=Cloud Storage Encryption Utility
+Icon=org.cryptomator.Cryptomator
+Exec=/home/brett/Appimages/cryptomator-1.5.17-x86_64.AppImage
+Actions=
+MimeType=application/x-vnd.cryptomator-vault-metadata;
+Categories=FileTools;Security;Utility;
+StartupWMClass=org-cryptomator-launcher-Cryptomator

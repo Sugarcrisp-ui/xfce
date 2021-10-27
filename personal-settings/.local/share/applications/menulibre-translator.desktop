@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Translate
+Comment=A small descriptive blurb about this application.
+Icon=/home/brett/Pictures/google-translate.png
+Exec=firefox https://www.google.com/translate
+Actions=
+Categories=Network;WebBrowser;
+StartupNotify=true
