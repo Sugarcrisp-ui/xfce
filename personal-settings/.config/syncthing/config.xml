@@ -1,51 +1,15 @@
 <configuration version="35">
-    <folder id="h44gz-lilya" label="Appimages" path="/home/brett/Appimages" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
+    <folder id="Shared" label="" path="/home/brett/Shared" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
         <device id="EEHH65W-F57QHLB-KWV7WMJ-DGA6KD5-BFKR34K-ILZBRUE-734YWXY-34FEPAB" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
-        <device id="RTIBZSV-T2IN3WA-66G43AR-TOWMIYE-BQIXB4J-LYOAGIG-7SDHVBS-LLBT5AR" introducedBy="">
+        <device id="2BEFVJI-WMZ5ZSZ-NW73FEG-H5MJJ6B-BJ7AN55-T3RCZ6R-NX4O3UD-KVT5DQC" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <minDiskFree unit="%">1</minDiskFree>
         <versioning>
-            <cleanupIntervalS>0</cleanupIntervalS>
-            <fsPath></fsPath>
-            <fsType>basic</fsType>
-        </versioning>
-        <copiers>0</copiers>
-        <pullerMaxPendingKiB>0</pullerMaxPendingKiB>
-        <hashers>0</hashers>
-        <order>random</order>
-        <ignoreDelete>false</ignoreDelete>
-        <scanProgressIntervalS>0</scanProgressIntervalS>
-        <pullerPauseS>0</pullerPauseS>
-        <maxConflicts>10</maxConflicts>
-        <disableSparseFiles>false</disableSparseFiles>
-        <disableTempIndexes>false</disableTempIndexes>
-        <paused>false</paused>
-        <weakHashThresholdPct>25</weakHashThresholdPct>
-        <markerName>.stfolder</markerName>
-        <copyOwnershipFromParent>false</copyOwnershipFromParent>
-        <modTimeWindowS>0</modTimeWindowS>
-        <maxConcurrentWrites>2</maxConcurrentWrites>
-        <disableFsync>false</disableFsync>
-        <blockPullOrder>standard</blockPullOrder>
-        <copyRangeMethod>standard</copyRangeMethod>
-        <caseSensitiveFS>false</caseSensitiveFS>
-        <junctionsAsDirs>false</junctionsAsDirs>
-    </folder>
-    <folder id="wbf2c-rskys" label="Shared" path="/home/brett/Shared" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
-        <filesystemType>basic</filesystemType>
-        <device id="EEHH65W-F57QHLB-KWV7WMJ-DGA6KD5-BFKR34K-ILZBRUE-734YWXY-34FEPAB" introducedBy="">
-            <encryptionPassword></encryptionPassword>
-        </device>
-        <device id="RTIBZSV-T2IN3WA-66G43AR-TOWMIYE-BQIXB4J-LYOAGIG-7SDHVBS-LLBT5AR" introducedBy="">
-            <encryptionPassword></encryptionPassword>
-        </device>
-        <minDiskFree unit="%">1</minDiskFree>
-        <versioning>
-            <cleanupIntervalS>0</cleanupIntervalS>
+            <cleanupIntervalS>3600</cleanupIntervalS>
             <fsPath></fsPath>
             <fsType>basic</fsType>
         </versioning>
@@ -81,12 +45,14 @@
         <untrusted>false</untrusted>
         <remoteGUIPort>0</remoteGUIPort>
     </device>
-    <device id="RTIBZSV-T2IN3WA-66G43AR-TOWMIYE-BQIXB4J-LYOAGIG-7SDHVBS-LLBT5AR" name="brett-k501ux" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
+    <device id="2BEFVJI-WMZ5ZSZ-NW73FEG-H5MJJ6B-BJ7AN55-T3RCZ6R-NX4O3UD-KVT5DQC" name="Brett-Laptop" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
         <address>dynamic</address>
         <paused>false</paused>
         <autoAcceptFolders>false</autoAcceptFolders>
         <maxSendKbps>0</maxSendKbps>
         <maxRecvKbps>0</maxRecvKbps>
+        <ignoredFolder time="2021-08-19T06:19:55.171Z" id="mj4h6-svy2x" label="Appimages"></ignoredFolder>
+        <ignoredFolder time="2021-08-19T06:20:51.743Z" id="ys9vp-i77n6" label="Appimages"></ignoredFolder>
         <maxRequestKiB>0</maxRequestKiB>
         <untrusted>false</untrusted>
         <remoteGUIPort>0</remoteGUIPort>

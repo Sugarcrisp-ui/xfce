@@ -1,3 +1,3 @@
-https:cdn.jsdelivr.net:443:.::3	0	18923	https:cdn.jsdelivr.net:443:cdn.jsdelivr.net:443::n:1635042500:h3:y:1634817829:n::|n:y:
-https:safebrowsing.googleapis.com:443:.:^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:3	19	18927	https:safebrowsing.googleapis.com:443:safebrowsing.googleapis.com:443::n:1637892129:h3:y:1633596544:n:^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:|n:y:
-https:easylist.to:443:.::3	0	18923	https:easylist.to:443:easylist.to:443::n:1635042742:h3:y:1634817829:n::|n:y:
+https:cdn.jsdelivr.net:443:.::3	0	18928	https:cdn.jsdelivr.net:443:cdn.jsdelivr.net:443::n:1635509811:h3:y:1635422505:n::|n:y:
+https:safebrowsing.googleapis.com:443:.:^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:3	20	18928	https:safebrowsing.googleapis.com:443:safebrowsing.googleapis.com:443::n:1638020213:h3:y:1633596544:n:^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:|n:y:
+https:easylist.to:443:.::3	0	18928	https:easylist.to:443:easylist.to:443::n:1635510053:h3:y:1635422505:n::|n:y:

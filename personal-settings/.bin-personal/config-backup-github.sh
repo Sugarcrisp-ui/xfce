@@ -28,8 +28,6 @@ rsync -r -t -p -o -g -v --progress -s /home/brett/.config/expressvpn/ /home/bret
 
 rsync -r -t -p -o -g -v --progress -s /home/brett/.config/gtk-3.0/ /home/brett/Github/xfce/personal-settings/.config/gtk-3.0 --delete
 
-rsync -r -t -p -o -g -v --progress -s /home/brett/.config/i3/ /home/brett/Github/xfce/personal-settings/.config/i3 --delete
-
 rsync -r -t -p -o -g -v --progress -s /home/brett/.config/polybar/ /home/brett/Github/xfce/personal-settings/.config/polybar --delete
 
 rsync -r -t -p -o -g -v --progress -s /home/brett/.config/ranger/ /home/brett/Github/xfce/personal-settings/.config/ranger --delete
@@ -46,6 +44,8 @@ rsync -r -t -p -o -g -v --progress -s /home/brett/.config/xfce4/ /home/brett/Git
 # files
 
 rsync -r -t -p -o -g -v --progress -s /home/brett/.bashrc-personal /home/brett/Github/xfce/personal-settings/.bashrc-personal --delete
+
+rsync -r -t -p -o -g -v --progress -s /home/brett/.config/i3/config /home/brett/Github/xfce/personal-settings/.config/i3/config --delete
 
 rsync -r -t -p -o -g -v --progress -s /home/brett/.config/variety/variety.config /home/brett/Github/xfce/personal-settings/.config/variety/variety.config --delete
 
@@ -81,8 +81,6 @@ rsync -r -t -p -o -g -v --progress -s /home/brett/.config/expressvpn/ /home/bret
 
 rsync -r -t -p -o -g -v --progress -s /home/brett/.config/gtk-3.0/ /home/brett/Github/i3wm/personal-settings/.config/gtk-3.0 --delete
 
-rsync -r -t -p -o -g -v --progress -s /home/brett/.config/i3/ /home/brett/Github/i3wm/personal-settings/.config/i3 --delete
-
 rsync -r -t -p -o -g -v --progress -s /home/brett/.config/polybar/ /home/brett/Github/i3wm/personal-settings/.config/polybar --delete
 
 rsync -r -t -p -o -g -v --progress -s /home/brett/.config/ranger/ /home/brett/Github/i3wm/personal-settings/.config/ranger --delete
@@ -101,3 +99,6 @@ rsync -r -t -p -o -g -v --progress -s /home/brett/.config/xfce4/ /home/brett/Git
 # files
 
 rsync -r -t -p -o -g -v --progress -s /home/brett/.bashrc-personal /home/brett/Github/i3wm/personal-settings/.bashrc-personal --delete
+
+rsync -r -t -p -o -g -v --progress -s /home/brett/.config/i3/config /home/brett/Github/xfce/personal-settings/.config/i3/config --delete
+
