@@ -371,9 +371,6 @@ font pango:Noto Mono Regular 13
 # Expressvpn
 #exec --no-startup-id expressvpn connect
 
-# run openvpn-reconnect.sh at boot
-#exec --no-startup-id /home/brett/.bin-personal/openvpn-reconnect.sh &
-
 #Conky
 exec --no-startup-id conky -c /home/brett/.config/i3/system-overview
 
@@ -383,18 +380,17 @@ exec --no-startup-id feh --bg-fill /home/brett/.config/variety/Fetched/Spider-Ma
 
 # TO A SPECIFIC WORKSPACE
 
-#browser
-exec --no-startup-id i3-msg 'workspace 1; exec exo-open --launch webbrowser'
+#text-editor
+exec --no-startup-id i3-msg 'workspace 4; exec geany'
 
 #file manager
-#exec --no-startup-id thunar
 exec --no-startup-id i3-msg 'workspace 2; exec xfce4-terminal -e ranger'
 
 #terminal
 exec --no-startup-id i3-msg 'workspace 3; exec xfce4-terminal'
 
-#text-editor
-exec --no-startup-id i3-msg 'workspace 4; exec subl'
+#browser
+exec --no-startup-id i3-msg 'workspace 1; exec firefox'
 
 
 # TRAY APPLICATIONS
@@ -498,7 +494,9 @@ bindsym control+Shift+Escape exec --no-startup-id xfce4-taskmanager;focus
 bindsym $mod+Return exec --no-startup-id xfce4-terminal;focus
 
 # Text-editor
-bindsym Ctrl+mod1+s exec --no-startup-id subl
+#bindsym Ctrl+mod1+s exec --no-startup-id subl
+bindsym Ctrl+mod1+s exec --no-startup-id geany
+
 
 # Thunar
 bindsym $mod+Shift+Return exec --no-startup-id thunar

@@ -4,6 +4,6 @@ Version=1.0
 Terminal=false
 Type=Application
 Name=Logitech Unifying for Chrome
-Exec=chromium --profile-directory=Default --app-id=agpmgihmmmfkbhckmciedmhincdggomo
+Exec=/opt/google/chrome/google-chrome --profile-directory=Default --app-id=agpmgihmmmfkbhckmciedmhincdggomo
 Icon=chrome-agpmgihmmmfkbhckmciedmhincdggomo-Default
 StartupWMClass=crx_agpmgihmmmfkbhckmciedmhincdggomo

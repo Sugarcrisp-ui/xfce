@@ -1,5 +1,5 @@
 favorites=netflix.desktop,org.gnome.meld.desktop,authy.desktop,bitwarden.desktop,install4j_th6qku-tws.desktop
-recent=io.github.shiftey.Desktop.desktop,menulibre-translator.desktop,insync.desktop,xfce-session-settings.desktop,xfce-display-settings.desktop,arcolinux-tweak-tool.desktop,grsync.desktop,ranger.desktop,xfce4-screenshooter.desktop
+recent=xfce4-mime-settings.desktop,xfce-keyboard-settings.desktop,menulibre-translator.desktop,insync.desktop,xfce-session-settings.desktop,xfce-display-settings.desktop,arcolinux-tweak-tool.desktop,grsync.desktop,ranger.desktop,xfce4-screenshooter.desktop
 button-title=ArcoLinux\ \ 
 button-icon=start-here-arcolinux
 button-single-row=false
