@@ -32,7 +32,7 @@ rsync -r -t -p -o -g -v --progress -s /home/brett/.config/polybar/ /home/brett/G
 
 rsync -r -t -p -o -g -v --progress -s /home/brett/.config/ranger/ /home/brett/Github/xfce/personal-settings/.config/ranger --delete
 
-rsync -r -t -p -o -g -v --progress -s /home/brett/.config/Thunar/ /home/brett/Github/xfce/personal-settings/.config/Thunar --delete
+rsync -r -t -p -o -g -v --progress -s /home/brett/.config/ranger/ /home/brett/Github/xfce/personal-settings/.config/ranger --delete
 
 rsync -r -t -p -o -g -v --progress -s /home/brett/.config/variety/Fetched/ /home/brett/Github/xfce/personal-settings/.config/variety/Fetched --delete
 
@@ -84,8 +84,6 @@ rsync -r -t -p -o -g -v --progress -s /home/brett/.config/gtk-3.0/ /home/brett/G
 rsync -r -t -p -o -g -v --progress -s /home/brett/.config/polybar/ /home/brett/Github/i3wm/personal-settings/.config/polybar --delete
 
 rsync -r -t -p -o -g -v --progress -s /home/brett/.config/ranger/ /home/brett/Github/i3wm/personal-settings/.config/ranger --delete
-
-rsync -r -t -p -o -g -v --progress -s /home/brett/.config/synthing/ /home/brett/Github/i3wm/personal-settings/.config/syncthing --delete
 
 rsync -r -t -p -o -g -v --progress -s /home/brett/.config/Thunar/ /home/brett/Github/i3wm/personal-settings/.config/Thunar --delete
 

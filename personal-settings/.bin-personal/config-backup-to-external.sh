@@ -30,6 +30,8 @@ rsync -r -t -p -o -g -v --progress -s /home/brett/.config/polybar/ /run/media/br
 
 rsync -r -t -p -o -g -v --progress -s /home/brett/.config/ranger/ /run/media/brett/Backup/Arcolinux/.config/ranger --delete
 
+rsync -r -t -p -o -g -v --progress -s /home/brett/.config/syncthing/ /run/media/brett/Backup/Arcolinux/.config/syncthing --delete
+
 rsync -r -t -p -o -g -v --progress -s /home/brett/.config/Thunar/ /run/media/brett/Backup/Arcolinux/.config/Thunar --delete
 
 rsync -r -t -p -o -g -v --progress -s /home/brett/.config/variety/Fetched/ /run/media/brett/Backup/Arcolinux/.config/variety/Fetched --delete
