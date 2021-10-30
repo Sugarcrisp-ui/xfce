@@ -1,3 +1,1 @@
-https:cdn.jsdelivr.net:443:.::3	0	18923	https:cdn.jsdelivr.net:443:cdn.jsdelivr.net:443::n:1635042500:h3:y:1634817829:n::|n:y:
-https:safebrowsing.googleapis.com:443:.:^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:3	19	18927	https:safebrowsing.googleapis.com:443:safebrowsing.googleapis.com:443::n:1637892129:h3:y:1633596544:n:^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:|n:y:
-https:easylist.to:443:.::3	0	18923	https:easylist.to:443:easylist.to:443::n:1635042742:h3:y:1634817829:n::|n:y:
+https:safebrowsing.googleapis.com:443:.:^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:3	0	18866	https:safebrowsing.googleapis.com:443:safebrowsing.googleapis.com:443::n:1630035006:h3:n:1630035002:n:^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:|n:y:

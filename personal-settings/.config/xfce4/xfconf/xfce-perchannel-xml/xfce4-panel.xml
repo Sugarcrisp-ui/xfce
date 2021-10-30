@@ -5,10 +5,10 @@
   <property name="panels" type="array">
     <value type="int" value="1"/>
     <property name="panel-1" type="empty">
-      <property name="position" type="string" value="p=8;x=640;y=704"/>
+      <property name="position" type="string" value="p=8;x=960;y=1064"/>
       <property name="length" type="uint" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
-      <property name="size" type="uint" value="40"/>
+      <property name="size" type="uint" value="30"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="7"/>
         <value type="int" value="3"/>
@@ -17,22 +17,33 @@
         <value type="int" value="6"/>
         <value type="int" value="8"/>
         <value type="int" value="5"/>
+        <value type="int" value="2"/>
       </property>
       <property name="background-alpha" type="uint" value="76"/>
-      <property name="autohide-behavior" type="uint" value="1"/>
-      <property name="length-adjust" type="bool" value="true"/>
     </property>
-    <property name="dark-mode" type="bool" value="true"/>
   </property>
   <property name="plugins" type="empty">
+    <property name="plugin-2" type="string" value="actions">
+      <property name="items" type="array">
+        <value type="string" value="+restart"/>
+        <value type="string" value="+logout"/>
+        <value type="string" value="+suspend"/>
+        <value type="string" value="+shutdown"/>
+        <value type="string" value="-lock-screen"/>
+        <value type="string" value="-switch-user"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="-hibernate"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="-separator"/>
+        <value type="string" value="-logout-dialog"/>
+      </property>
+    </property>
     <property name="plugin-3" type="string" value="tasklist"/>
     <property name="plugin-15" type="string" value="separator">
       <property name="expand" type="bool" value="true"/>
       <property name="style" type="uint" value="0"/>
     </property>
-    <property name="plugin-4" type="string" value="pager">
-      <property name="rows" type="uint" value="1"/>
-    </property>
+    <property name="plugin-4" type="string" value="pager"/>
     <property name="plugin-5" type="string" value="clock"/>
     <property name="plugin-6" type="string" value="systray">
       <property name="names-visible" type="array">
@@ -61,17 +72,6 @@
       </property>
       <property name="show-frame" type="bool" value="false"/>
       <property name="names-ordered" type="array">
-        <value type="string" value="gigolo"/>
-        <value type="string" value="appimageupdater"/>
-        <value type="string" value="vncserverui"/>
-        <value type="string" value="qbittorrent"/>
-        <value type="string" value="discordptb"/>
-        <value type="string" value="warpinator"/>
-        <value type="string" value="electron"/>
-        <value type="string" value="javaembeddedframe"/>
-        <value type="string" value="clipgrab"/>
-        <value type="string" value="viberpc"/>
-        <value type="string" value="redshift-gtk"/>
         <value type="string" value="zoom"/>
         <value type="string" value="simplescreenrecorder"/>
         <value type="string" value="task manager"/>
@@ -90,31 +90,14 @@
         <value type="string" value="clipman"/>
       </property>
       <property name="known-legacy-items" type="array">
-        <value type="string" value="redshift-gtk"/>
-        <value type="string" value="javaembeddedframe"/>
-        <value type="string" value="thunar"/>
-        <value type="string" value="xfce4-power-manager"/>
-        <value type="string" value="blueberry-tray.py"/>
-        <value type="string" value="networkmanager applet"/>
         <value type="string" value="pamac-tray"/>
+        <value type="string" value="networkmanager applet"/>
         <value type="string" value="clipman"/>
-        <value type="string" value="vncserverui"/>
       </property>
       <property name="known-items" type="array">
-        <value type="string" value="remmina-icon"/>
-        <value type="string" value="whatsapp-nativefier-d402111"/>
-        <value type="string" value="opensnitch-ui"/>
-        <value type="string" value="ClipGrab"/>
-        <value type="string" value="indicator-solaar"/>
-        <value type="string" value="Back In Time"/>
-        <value type="string" value="Diodon"/>
-        <value type="string" value="qBittorrent"/>
-        <value type="string" value="chrome_status_icon_1"/>
-        <value type="string" value="variety"/>
-        <value type="string" value="Caprine1"/>
-        <value type="string" value="blueman"/>
-        <value type="string" value="discord1"/>
         <value type="string" value="Insync"/>
+        <value type="string" value="blueman"/>
+        <value type="string" value="variety"/>
         <value type="string" value="redshift"/>
       </property>
     </property>
@@ -126,7 +109,7 @@
     </property>
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance104043;chromium.instance11366;chromium.instance114699;chromium.instance12673;chromium.instance129489;chromium.instance140011;chromium.instance148880;chromium.instance14990;chromium.instance161699;chromium.instance1675;chromium.instance16979;chromium.instance169961;chromium.instance19066;chromium.instance20190;chromium.instance214185;chromium.instance2266;chromium.instance2325;chromium.instance24614;chromium.instance24776;chromium.instance25847;chromium.instance2624;chromium.instance2652;chromium.instance2669;chromium.instance2814;chromium.instance2939;chromium.instance30540;chromium.instance3087;chromium.instance31102;chromium.instance3239;chromium.instance3268;chromium.instance33159;chromium.instance3323;chromium.instance33861;chromium.instance36422;chromium.instance3721;chromium.instance380070;chromium.instance3843;chromium.instance39026;chromium.instance39588;chromium.instance40181;chromium.instance4034;chromium.instance42929;chromium.instance43404;chromium.instance4469;chromium.instance46057;chromium.instance5349;chromium.instance54089;chromium.instance54576;chromium.instance55223;chromium.instance55807;chromium.instance58326;chromium.instance5929;chromium.instance6737;chromium.instance7201;chromium.instance78155;chromium.instance7914;chromium.instance7945;chromium.instance803;chromium.instance807;chromium.instance81554;chromium.instance832;chromium.instance850;chromium.instance856;chromium.instance885;chromium.instance894;chromium.instance905;chromium.instance912;chromium.instance936;chromium.instance938;chromium.instance943;chromium.instance946;chromium.instance955;chromium.instance9553;chromium.instance966;chromium.instance978;chromium.instance99267;firefox.instance101243;firefox.instance101775;firefox.instance1024;firefox.instance103125;firefox.instance104455;firefox.instance1045;firefox.instance1071;firefox.instance10982;firefox.instance11161;firefox.instance1124;firefox.instance1129;firefox.instance1130;firefox.instance113833;firefox.instance1142;firefox.instance1145;firefox.instance1165;firefox.instance1167;firefox.instance1173;firefox.instance1178;firefox.instance11831;firefox.instance1186;firefox.instance1189;firefox.instance1198;firefox.instance1204;firefox.instance1205;firefox.instance1208;firefox.instance1209;firefox.instance1211;firefox.instance1215;firefox.instance1216;firefox.instance1217;firefox.instance12182;firefox.instance1222;firefox.instance1229;firefox.instance1231;firefox.instance1235;firefox.instance1236;firefox.instance1240;firefox.instance1249;firefox.instance125706;firefox.instance127585;firefox.instance12796;firefox.instance127984;firefox.instance1319;firefox.instance13404;firefox.instance13851;firefox.instance14251;firefox.instance1566;firefox.instance1643;firefox.instance1734;firefox.instance1802;firefox.instance18812;firefox.instance1955;firefox.instance19607;firefox.instance21718;firefox.instance24126;firefox.instance24342;firefox.instance25110;firefox.instance2519;firefox.instance2589;firefox.instance260315;firefox.instance2612;firefox.instance2667;firefox.instance2677;firefox.instance2718;firefox.instance2729;firefox.instance2730;firefox.instance2765;firefox.instance27913;firefox.instance2813;firefox.instance2827;firefox.instance286092;firefox.instance28660;firefox.instance2909;firefox.instance291916;firefox.instance2961;firefox.instance3037;firefox.instance3141;firefox.instance32392;firefox.instance3314;firefox.instance3327;firefox.instance3380;firefox.instance3424;firefox.instance3648;firefox.instance38520;firefox.instance39402;firefox.instance39825;firefox.instance42128;firefox.instance4217;firefox.instance43309;firefox.instance43332;firefox.instance45641;firefox.instance4840;firefox.instance4980;firefox.instance5177;firefox.instance5305;firefox.instance56049;firefox.instance5928;firefox.instance62363;firefox.instance74459;firefox.instance74654;firefox.instance7517;firefox.instance82643;firefox.instance83162;firefox.instance83327;firefox.instance8606;firefox.instance885;firefox.instance8865;firefox.instance890;firefox.instance907;firefox.instance93010;firefox.instance94286;firefox.instance95460;firefox.instance96608;firefox.instance974;io.github.celluloid_player.Celluloid.instance-1;pragha;spotify"/>
+      <property name="mpris-players" type="string" value="pragha;spotify"/>
     </property>
   </property>
 </channel>

@@ -2,3 +2,4 @@
 text/html=netflix.desktop;trakttv.desktop
 text/xml=netflix.desktop;trakttv.desktop
 application/xhtml_xml=netflix.desktop;trakttv.desktop
+x-scheme-handler/http=exo-web-browser.desktop
