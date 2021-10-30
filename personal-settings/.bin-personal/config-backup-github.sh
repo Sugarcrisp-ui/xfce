@@ -32,8 +32,6 @@ rsync -r -t -p -o -g -v --progress -s /home/brett/.config/polybar/ /home/brett/G
 
 rsync -r -t -p -o -g -v --progress -s /home/brett/.config/ranger/ /home/brett/Github/xfce/personal-settings/.config/ranger --delete
 
-rsync -r -t -p -o -g -v --progress -s /home/brett/.config/ranger/ /home/brett/Github/xfce/personal-settings/.config/ranger --delete
-
 rsync -r -t -p -o -g -v --progress -s /home/brett/.config/variety/Fetched/ /home/brett/Github/xfce/personal-settings/.config/variety/Fetched --delete
 
 rsync -r -t -p -o -g -v --progress -s /home/brett/.config/xfce4/ /home/brett/Github/xfce/personal-settings/.config/xfce4 --delete
