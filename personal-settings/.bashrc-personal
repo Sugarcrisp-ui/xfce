@@ -2,6 +2,11 @@
 # .bashrc file when it is updated.  This prevents my settings from being
 # lost or overwriten
 
+# Make micro the default editor
+
+export EDITOR='micro'
+export VISUAL='micro'
+
 # using the PATH to all the bin locations means I don't need to include the path in each line
 PATH=/opt/someApp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/brett/.bin-personal
 
@@ -21,12 +26,11 @@ alias topersonal='config-backup-to-personal.sh'
 # copy config files to github
 alias togithub='config-backup-github.sh'
 
-# my version of skel runs my backup to the /personal first to ensure that I have the newest 
-# changes first
-alias skel='config-backup-to-personal.sh && [ -d ~/.config ] || mkdir ~/.config && cp -Rf ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S) && cp -rf /etc/skel/* ~'
+# copy config files to external drive
+alias toexternal='config-backup-to-external.sh'
 
 # my xfce config restore
-alias myconf='cd /home/brett/.bin-personal  &&  ./my-config-restore.sh'
+alias myconf='my-config-restore.sh'
 
 # Change Betterlockscreen background
 alias mybls='betterlockscreen -u ~/Pictures/background-images/blue-fabric-background.png'

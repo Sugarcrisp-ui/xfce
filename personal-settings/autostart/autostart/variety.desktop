@@ -6,3 +6,4 @@ Exec=variety
 Terminal=false
 Type=Application
 X-GNOME-Autostart-Delay=20
+Hidden=false
