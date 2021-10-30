@@ -1,4 +1,4 @@
-FileManager=thunar
-TerminalEmulator=xfce4-terminal
-WebBrowser=chromium
-
+FileManager=Thunar
+TerminalEmulator=custom-TerminalEmulator
+WebBrowser=firefox
+MailReader=evolution

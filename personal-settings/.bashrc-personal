@@ -2,17 +2,28 @@
 # .bashrc file when it is updated.  This prevents my settings from being
 # lost or overwriten
 
+# using the PATH to all the bin locations means I don't need to include the path in each line
+PATH=/opt/someApp/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/brett/.bin-personal
+
 # bashup reloads the .bashrc to update any changes without having to reboot.
 alias bashup='source ~/.bashrc'
 
 # update pacman and paru
-alias update='sudo pacman -Syu && paru -Syu --noconfirm && flatpak update'
+#alias update='sudo pacman -Syu && paru -Syu --noconfirm && flatpak update'
+alias update='paru -Syu && flatpak update'
 
 # copy the .local file to .local-backup
 alias buplocal='cp -Rf ~/.local ~/.local-backup-$(date +%Y.%m.%d-%H.%M.%S)'
 
 # copy config files to /personal
-alias copper='cd /home/brett/.bin-personal && sudo ./config-backup-to-personal-folder.sh'
+alias topersonal='config-backup-to-personal.sh'
+
+# copy config files to github
+alias togithub='config-backup-github.sh'
+
+# my version of skel runs my backup to the /personal first to ensure that I have the newest 
+# changes first
+alias skel='config-backup-to-personal.sh && [ -d ~/.config ] || mkdir ~/.config && cp -Rf ~/.config ~/.config-backup-$(date +%Y.%m.%d-%H.%M.%S) && cp -rf /etc/skel/* ~'
 
 # my xfce config restore
 alias myconf='cd /home/brett/.bin-personal  &&  ./my-config-restore.sh'
@@ -29,5 +40,3 @@ alias ssha='eval &(ssh-agent) && ssh-add'
 # Reinstall usb wifi driver
 alias wifi='cd /home/brett/src/8821au/ && sudo ./remove-driver.sh && sudo ./install-driver.sh && bashup && sr'
 
-# Add .bin-personal to the PATH
-PATH="$HOME/.bin-personal:$PATH"

@@ -4,9 +4,9 @@
 # Procedure
 # Surf to https://openweathermap.org/city
 # Fill in your CITY
-# e.g. Nha Trang Vietnam
+# e.g. Antwerp Belgium
 # Check url
-# https://openweathermap.org/city/1572151
+# https://openweathermap.org/city/2803138
 # you will the city code at the end
 # create an account on this website
 # create an api key (free)
@@ -15,7 +15,7 @@
 
 import requests
 
-CITY = "1572151"
+CITY = "2803138"
 API_KEY = "756edce7e9d4c385ef9499a53492678c"
 UNITS = "Metric"
 UNIT_KEY = "C"

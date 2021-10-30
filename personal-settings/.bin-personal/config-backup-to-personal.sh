@@ -23,6 +23,8 @@ rsync -r -t -p -o -g -v --progress -s /home/brett/.config/xfce4/ /personal/.conf
 
 # files
 
+rsync -r -t -p -o -g -v --progress -s /home/brett/.bin-personal /personal/.bin-personal --delete
+
 rsync -r -t -p -o -g -v --progress -s /home/brett/.config/variety/variety.conf /personal/.config/variety/variety.conf --delete
 
 
