@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Github
+Comment=AppImage
+Exec=/home/brett/Appimages/GitHubDesktop.AppImage
+Icon=/home/brett/Appimages/icons/github-icon.png
+Terminal=false
+Path=
+StartupNotify=false

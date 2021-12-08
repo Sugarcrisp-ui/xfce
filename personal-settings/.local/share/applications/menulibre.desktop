@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Start Menu
+Comment=Edit start menu applications
+Icon=
+Exec=menulibre
+Actions=
+Categories=Network;WebBrowser;
+StartupNotify=true
