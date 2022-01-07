@@ -1,14 +1,11 @@
 [Desktop Entry]
 Version=1.0
 Name=Protonmail
-Comment=Protonmail (Ice SSB)
-Exec=firefox --class ICE-SSB-protonmail --profile /home/brett/.local/share/ice/firefox/protonmail --no-remote https://mail.protonmail.com/u/0/inbox
-IceFirefox=protonmail
+Comment=Protonmail
+Exec=/home/brett/Webapps/Protonmail-linux-x64/./Protonmail
 Terminal=false
-X-MultipleArgs=false
 Type=Application
-Icon=/home/brett/.local/share/ice/protonmail.png
-Categories=GTK;Network;
-MimeType=text/html;text/xml;application/xhtml_xml;
-StartupWMClass=ICE-SSB-protonmail
-StartupNotify=true
+Categories=Internet
+Icon=protonmail
+StartupNotify=false
+Path=

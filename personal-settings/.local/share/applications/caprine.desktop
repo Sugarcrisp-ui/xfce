@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Messenger
+GenericName=IM Client
+Comment=Unofficial Facebook Messenger app
+Icon=caprine
+Exec=caprine
+Categories=GTK;InstantMessaging;Network;
+StartupNotify=true
+Path=
+Terminal=false

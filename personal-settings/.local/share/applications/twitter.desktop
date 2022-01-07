@@ -1,14 +1,11 @@
 [Desktop Entry]
 Version=1.0
 Name=Twitter
-Comment=Twitter (Ice SSB)
-Exec=firefox --class ICE-SSB-twitter --profile /home/brett/.local/share/ice/firefox/twitter --no-remote https://twitter.com/home
-IceFirefox=twitter
+Comment=Twitter
+Exec=/home/brett/Webapps/Twitter-linux-x64/./Twitter
 Terminal=false
-X-MultipleArgs=false
 Type=Application
-Icon=/home/brett/.local/share/ice/twitter.png
-Categories=GTK;Network;
-MimeType=text/html;text/xml;application/xhtml_xml;
-StartupWMClass=ICE-SSB-twitter
-StartupNotify=true
+Categories=Internet
+Icon=twitter
+StartupNotify=false
+Path=

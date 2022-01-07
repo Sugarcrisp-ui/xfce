@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=Google-Translate
+Comment=Google-Translate
+Exec=/home/brett/Webapps/Google-Translate-linux-x64/./Google-Translate
+Terminal=false
+Type=Application
+Categories=Internet
+Icon=google-translate
+StartupNotify=false
+Path=

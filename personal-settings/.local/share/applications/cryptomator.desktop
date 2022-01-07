@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Name=Cryptomator
-Comment=AppImage
+Comment=1.6.5
 Exec=/home/brett/Appimages/cryptomator.AppImage
 Icon=/home/brett/Appimages/icons/cryptomator-icon.png
 Terminal=false

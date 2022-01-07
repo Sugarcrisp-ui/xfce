@@ -2,46 +2,35 @@
 
 # Directories
 
-rsync -r -t -p -o -g -v --progress -s --delete /home/brett/Appimages/ /home/brett/.local/share/Cryptomator/mnt/Arcolinux/Appimages
+rsync -av --progress --delete /home/brett/.bin-personal/ /run/media/brett/7836d530-f67e-4d6b-a1ee-65e980d6dd45/.bin-personal
 
-rsync -r -t -p -o -g -v --progress -s --delete /home/brett/.bin-personal/ /home/brett/.local/share/Cryptomator/mnt/Arcolinux/.bin-personal
+rsync -av --progress --delete --exclude=Insync/ --exclude=chromium/ /home/brett/.config/ /run/media/brett/7836d530-f67e-4d6b-a1ee-65e980d6dd45/.config
 
-rsync -r -t -p -o -g -v --progress -s --delete /home/brett/.config/arcolinux-betterlockscreen/ /home/brett/.local/share/Cryptomator/mnt/Arcolinux/.config/arcolinux-betterlockscreen
+rsync -av --progress --delete --exclude=Trash/ /home/brett/.local/ /run/media/brett/7836d530-f67e-4d6b-a1ee-65e980d6dd45/.local
 
-rsync -r -t -p -o -g -v --progress -s --delete /home/brett/.config/Cryptomator/ /home/brett/.local/share/Cryptomator/mnt/Arcolinux/.config/Cryptomator
+rsync -av --progress --delete /home/brett/.ssh/ /run/media/brett/7836d530-f67e-4d6b-a1ee-65e980d6dd45/.ssh
 
-rsync -r -t -p -o -g -v --progress -s --delete /home/brett/.config/dconf/ /home/brett/.local/share/Cryptomator/mnt/Arcolinux/.config/dconf
+rsync -av --progress --delete /home/brett/.var/ /run/media/brett/7836d530-f67e-4d6b-a1ee-65e980d6dd45/.var
 
-rsync -r -t -p -o -g -v --progress -s --delete /home/brett/.config/gtk-3.0/ /home/brett/.local/share/Cryptomator/mnt/Arcolinux/.config/gtk-3.0
+rsync -av --progress --delete /home/brett/.vnc/ /run/media/brett/7836d530-f67e-4d6b-a1ee-65e980d6dd45/.vnc
 
-rsync -r -t -p -o -g -v --progress -s --delete /home/brett/.config/expressvpn/ /home/brett/.local/share/Cryptomator/mnt/Arcolinux/.config/expressvpn
+rsync -av --progress --delete /home/brett/Appimages/ /run/media/brett/7836d530-f67e-4d6b-a1ee-65e980d6dd45/Appimages
 
-rsync -r -t -p -o -g -v --progress -s --delete /home/brett/.config/i3/ /home/brett/.local/share/Cryptomator/mnt/Arcolinux/.config/i3
+rsync -av --progress --delete /home/brett/Documents/ /run/media/brett/7836d530-f67e-4d6b-a1ee-65e980d6dd45/Documents
 
-rsync -r -t -p -o -g -v --progress -s --delete /home/brett/.config/Insync/ /home/brett/.local/share/Cryptomator/mnt/Arcolinux/.config/Insync
+rsync -av --progress --delete /home/brett/Downloads/ /run/media/brett/7836d530-f67e-4d6b-a1ee-65e980d6dd45/Downloads
 
-rsync -r -t -p -o -g -v --progress -s --delete /home/brett/.config/polybar/ /home/brett/.local/share/Cryptomator/mnt/Arcolinux/.config/polybar
+rsync -av --progress --delete /home/brett/Pictures/ /run/media/brett/7836d530-f67e-4d6b-a1ee-65e980d6dd45/Pictures
 
-rsync -r -t -p -o -g -v --progress -s --delete /home/brett/.config/ranger/ /home/brett/.local/share/Cryptomator/mnt/Arcolinux/.config/ranger
+rsync -av --progress --delete /home/brett/Videos/ /run/media/brett/7836d530-f67e-4d6b-a1ee-65e980d6dd45/Videos
 
-rsync -r -t -p -o -g -v --progress -s --delete /home/brett/.config/syncthing/ /home/brett/.local/share/Cryptomator/mnt/Arcolinux/.config/syncthing
+rsync -av --progress --delete /home/brett/"VirtualBox VMs"/ /run/media/brett/7836d530-f67e-4d6b-a1ee-65e980d6dd45/"VirtualBox VMs"
 
-rsync -r -t -p -o -g -v --progress -s --delete /home/brett/.config/Thunar/ /home/brett/.local/share/Cryptomator/mnt/Arcolinux/.config/Thunar
-
-rsync -r -t -p -o -g -v --progress -s --delete /home/brett/.config/variety/Fetched/ /home/brett/.local/share/Cryptomator/mnt/Arcolinux/.config/variety/Fetched
-
-rsync -r -t -p -o -g -v --progress -s --delete /home/brett/.config/xfce4/ /home/brett/.local/share/Cryptomator/mnt/Arcolinux/.config/xfce4
-
-rsync -r -t -p -o -g -v --progress -s --delete /home/brett/.local/share/applications/ /home/brett/.local/share/Cryptomator/mnt/Arcolinux/.local/share/applications
-
-rsync -r -t -p -o -g -v --progress -s --delete /home/brett/.local/share/ice/ /home/brett/.local/share/Cryptomator/mnt/Arcolinux/.local/share/ice
-
-rsync -r -t -p -o -g -v --progress -s --delete /home/brett/.ssh/ /home/brett/.local/share/Cryptomator/mnt/Arcolinux/.ssh
+rsync -av --progress --delete /home/brett/Webapps/ /run/media/brett/7836d530-f67e-4d6b-a1ee-65e980d6dd45/Webapps
 
 
 
 # files
 
-rsync -r -t -p -o -g -v --progress -s --delete /home/brett/.bashrc-personal /home/brett/.local/share/Cryptomator/mnt/Arcolinux/.bashrc-personal
+rsync -av --progress --delete /home/brett/.bashrc-personal /run/media/brett/7836d530-f67e-4d6b-a1ee-65e980d6dd45/.bashrc-personal
 
-rsync -r -t -p -o -g -v --progress -s --delete /home/brett/.config/variety/variety.conf /home/brett/.local/share/Cryptomator/mnt/Arcolinux/.config/variety/variety.conf

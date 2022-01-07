@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Netflix
+GenericName=QtWebFlix
+Comment=Standalone player for several streaming platforms
+Categories=Network;AudioVideo;Player;
+Exec=/usr/bin/qtwebflix --disable-seccomp-filter-sandbox 
+Icon=qtwebflix
+StartupNotify=false
+Terminal=false
+Type=Application
+
+Path=

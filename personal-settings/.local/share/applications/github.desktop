@@ -1,7 +1,7 @@
 [Desktop Entry]
 Type=Application
 Name=Github
-Comment=AppImage
+Comment=2.9.6
 Exec=/home/brett/Appimages/GitHubDesktop.AppImage
 Icon=/home/brett/Appimages/icons/github-icon.png
 Terminal=false

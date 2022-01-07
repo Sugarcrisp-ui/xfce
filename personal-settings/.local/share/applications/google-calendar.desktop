@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=Google-Calendar
+Comment=Google-Calendar
+Exec=/home/brett/Webapps/Google-Calendar-linux-x64/./Google-Calendar
+Terminal=false
+Type=Application
+Categories=Internet
+Icon=google-calendar
+StartupNotify=false
+Path=
