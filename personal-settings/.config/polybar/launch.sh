@@ -9,7 +9,7 @@
 # Terminate already running bar instances
 killall -q polybar
 killall -q insync
-killall -q cryptomator.AppImage
+killall -q cryptomator
 
 # Wait until the processes have been shut down
 while pgrep -u $UID -x polybar > /dev/null; do sleep 1; done
@@ -19,7 +19,7 @@ count=$(xrandr --query | grep " connected" | cut -d" " -f1 | wc -l)
 
 # these ExecStart lines (insync, cryptomator) where added by me
 ExecStart=--no-startup-id sleep 1 && $(insync start) &
-ExecStart=--no-startup-id sleep 10 && $(/home/brett/Appimages/cryptomator.AppImage) &
+ExecStart=--no-startup-id sleep 5 && $(/home/brett/Appimages/cryptomator.AppImage) &
 
 case $desktop in
 

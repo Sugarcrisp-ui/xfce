@@ -4,9 +4,11 @@
   <property name="applications" type="empty">
     <property name="known_applications" type="array">
       <value type="string" value="blueman"/>
+      <value type="string" value="brave-browser"/>
       <value type="string" value="ca.desrt.dconf-editor"/>
       <value type="string" value="chromium"/>
       <value type="string" value="com.uploadedlobster.peek"/>
+      <value type="string" value="CopyQ"/>
       <value type="string" value="discord"/>
       <value type="string" value="Discord"/>
       <value type="string" value="Discord Canary"/>
@@ -27,6 +29,7 @@
       <value type="string" value="pragha"/>
       <value type="string" value="signal"/>
       <value type="string" value="Spotify"/>
+      <value type="string" value="Syncthing GTK"/>
       <value type="string" value="System Config Printer Notification"/>
       <value type="string" value="Terminal"/>
       <value type="string" value="thunar"/>
@@ -47,6 +50,7 @@
     </property>
     <property name="muted_applications" type="array">
       <value type="string" value="ca.desrt.dconf-editor"/>
+      <value type="string" value="brave-browser"/>
     </property>
   </property>
   <property name="notify-location" type="uint" value="2"/>

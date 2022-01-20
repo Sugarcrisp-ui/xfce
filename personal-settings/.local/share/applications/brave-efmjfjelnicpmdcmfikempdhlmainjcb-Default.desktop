@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Chrome Remote Desktop
+Exec=/tmp/.mount_Brave.R7JH5t/brave --profile-directory=Default --app-id=efmjfjelnicpmdcmfikempdhlmainjcb
+Icon=brave-efmjfjelnicpmdcmfikempdhlmainjcb-Default
+StartupWMClass=crx_efmjfjelnicpmdcmfikempdhlmainjcb
+Hidden=true
+
