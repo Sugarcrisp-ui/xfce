@@ -1,16 +1,19 @@
 #!/bin/bash
 
-# This is use to sync individual files as Insync can only be set up to handle directories.
+## I've replaced the Google drive option for syncing .bashrc-personal and now sync  
+## directly between computers using syncthing
 
-# crontab is set up to run /.bin-personal/sync-files-between-computers.sh every 10s
+# this provides 2-way sync of my .bashrc-personal file via insync and my Google Drive
+# I use crontab to sync every 10s
 
-# Sync .bashrc-personal
-# requires 'bashup' or reboot to update the bash before changes take place
+#rsync -avuP ~/.bashrc-personal /home/brett/Insync/brettcrisp2@gmail.com/'Google Drive'/.bashrc-personal
+#rsync -avuP /home/brett/Insync/brettcrisp2@gmail.com/'Google Drive'/.bashrc-personal ~/.bashrc-personal
 
-	# laptop brett
-	rsync -r -t -p -o -g -v --progress -s --delete $HOME/.bashrc-personal brett@192.168.1.12:/home/brett/.bashrc-personal
-	
-	# laptop kim
-	rsync -r -t -p -o -g -v --progress -s --delete $HOME/.bashrc-personal kim@192.168.1.13:/home/kim/.bashrc-personal
+# Sync to laptop...need to use laptop ip
+rsync --archive --verbose --update ~/.bashrc-personal 192.168.1.7:~/.bashrc-personal
+#rsync --archive --verbose --update ~/Shared/* 192.168.3.15:~/Shared/
 
+# Sync from laptop...need to use laptop ip
+rsync --archive --verbose --update 192.168.1.7:~/.bashrc-personal ~/.bashrc-personal
+#rsync -avu 192.168.3.15:~/Shared/filename ~/Shared/
 

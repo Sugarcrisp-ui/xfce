@@ -76,8 +76,7 @@ grub-customizer
 hardcode-fixer-git
 htop
 insync
-#Libreoffice-fresh
-libreoffice-still
+libreoffice-fresh
 meld
 menulibre
 openshot
